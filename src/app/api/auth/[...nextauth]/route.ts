@@ -35,7 +35,7 @@ const handler = NextAuth({
         
     ],
     callbacks:{
-        jwt({account,token,user,profile,session}){
+        jwt({token,user}){
             if (user) token.user = user;
             return token;
         },
@@ -46,6 +46,7 @@ const handler = NextAuth({
     },
     pages: {
         signIn: '/login',
+        
     },
 });
 
