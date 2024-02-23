@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error{
+    background-color: #0000000c;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #B11830;
+}
+
+.logo h1{
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.login__field{
+    padding: 10px 0;
+    position: relative;
+}
+
+.login__icon{
+    position: absolute;
+    color: #B11830;
+    font-size: 20px;
+    top: 35%;
+    left: 20px;
+}
+
+.login__input{
+    align-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding-left: 50px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover{
+    outline: none;
+    border: 2px solid #B11830;
+}
+
+.login__submit{
+    border: 1px solid #B11830;
+    cursor: pointer;
+    background-color: #FFF;
+    font-size: 16px;
+    color: #B11830;
+    font-weight: 700;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.switch-form{
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.login-link{
+    color: #B11830;
+    cursor: pointer;
+}
