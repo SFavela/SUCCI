@@ -43,7 +43,7 @@ function LoginPage() {
                     <h1>Sistema Universitario de Calidad y Control Interno</h1>
                 </div>
                 <div className="form">
-                    <form onSubmit={handleSubmit} className="log-in">
+                    <form onSubmit={handleSubmit} className="log-in"> 
                         <div className="login__field">
                             <FontAwesomeIcon className="login__icon" icon={faUser}/>
                             <input className="login__input" type="mail" placeholder="Correo Electrónico"  name="correoElectronico" />
