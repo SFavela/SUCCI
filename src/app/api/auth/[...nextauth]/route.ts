@@ -1,5 +1,4 @@
 import NextAuth from "next-auth/next";
-import GooogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { connectDB } from "@/libs/mongodb";
 import User from "@/models/user";
@@ -28,11 +27,6 @@ const handler = NextAuth({
                 return userFound;
             },
         }),
-        //GooogleProvider({
-           // clientId: process.env.GOOGLE_ID as string,
-            //clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
-        //},
-        
     ],
     callbacks:{
         jwt({token,user}){

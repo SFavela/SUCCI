@@ -8,9 +8,9 @@ export async function POST(request: Request) {
     const {nombre, correoElectronico, contrasena, apellidoPaterno, apellidoMaterno, matricula, area, adscripcion} = await request.json()
     console.log(nombre,apellidoPaterno, apellidoMaterno, matricula, area, adscripcion, correoElectronico, contrasena);
 
-    if (!contrasena || contrasena.length < 6 ) 
+    if (!contrasena || contrasena.length < 8 ) 
     return NextResponse.json({
-        message: "La contraseña debe tener al menos 6 caracteres"
+        message: "La contraseña debe tener al menos 8 caracteres"
     }, {
         status: 400
     }
