@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar"
 import "../../../../globals.css"
-import "../../styles/normatividad.css"
 
 function page() {
   return (
