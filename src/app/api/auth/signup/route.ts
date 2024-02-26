@@ -5,8 +5,8 @@ import bcrypt from 'bcryptjs';
 
 export async function POST(request: Request) {
 
-    const {nombre, correoElectronico, contrasena, apellidoPaterno, apellidoMaterno, matricula, area, adscripcion,rol} = await request.json()
-    console.log(nombre,apellidoPaterno, apellidoMaterno, matricula, area, adscripcion, correoElectronico, contrasena,rol);
+    const {nombre, correoElectronico, contrasena, apellidoPaterno, apellidoMaterno, matricula, area, adscripcion} = await request.json()
+    console.log(nombre,apellidoPaterno, apellidoMaterno, matricula, area, adscripcion, correoElectronico, contrasena);
 
     if (!contrasena || contrasena.length < 8 ) 
     return NextResponse.json({
@@ -37,7 +37,6 @@ export async function POST(request: Request) {
         area,
         adscripcion,
         correoElectronico,
-        rol,
         contrasena: hashedPassword
     })
     const savedUser = await user.save()
