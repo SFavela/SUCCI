@@ -1,6 +1,7 @@
 "use client"
 
 import axios, { AxiosError} from "axios"
+import User from "@/models/user"
 import { signIn } from "next-auth/react"
 import { FormEvent, useState } from "react"
 import { useRouter } from "next/navigation"
@@ -10,6 +11,42 @@ import Image from "next/image"
 import logo from "@/app/img/logo-login.png"
 import "../styles/register.css"
 import { faBuilding, faEnvelope, faKey, faUser } from "@fortawesome/free-solid-svg-icons"
+
+
+function asignarRolPorAdscripcion(adscripcion: string): string{
+    switch (adscripcion){
+        case "ads1":
+            return "rectoria";
+        case "ads2":
+            return "sec-gral";
+        case "ads3":
+            return "sub-sec-aca";
+        case  "ads4": 
+            return "sub-sec-admin";
+        case  "ads5": 
+            return "rectoria";
+        case "ads6":
+            return "rectoria";
+        case "ads7":
+            return "abogado";
+        case 'ads8':
+            return "tesoreria";
+        case "ads9":
+            return "contraloria";
+        case "ads10":
+            return "difusion";
+        case "ads11":
+            return "fcqa";
+        case "ads12":
+            return "fts";
+        case "ads13":
+            return "fcq";
+        case "ads14":
+            return "bellasartes";
+        default : 
+            return "Usuario";
+    }
+}
 
 function RegisterPage() {
 
@@ -33,6 +70,14 @@ function RegisterPage() {
                 contrasena: formData.get("contrasena"),
             });
             console.log(signupResponse);
+
+            const rol = asignarRolPorAdscripcion(formData.get("adscripcion") as string);
+
+            await User.findOneAndUpdate(
+                {correoElectronico: signupResponse.data.correoElectronico},
+                {rol: rol},
+                {new: true}
+            );
 
             const res = await signIn('credentials',{
                 correoElectronico: signupResponse.data.correoElectronico,

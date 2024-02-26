@@ -1,0 +1,462 @@
+.banner{
+    width: 100%;
+    position: relative;
+    height: 384px;
+}
+
+.banner img{
+    width: 100%;
+    height: 384px;
+}
+
+.txt{
+    position: absolute;
+    width: 100%;
+    height: 384px;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.txt h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 170px;
+    color: #FFF;
+}
+
+.separador{
+    width: 100%;
+    height: 19px;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 426px;
+    background-color: #B11830;
+    display: flex;
+}
+
+.linea{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 2px;
+    height: 80%;
+    background-color: #FFF;
+}
+
+.mision{
+    width: 595px;
+    margin-left: 63px;
+    margin-top: 49px;
+}
+
+.mision h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFF;
+}
+
+.mision p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: justify;
+}
+
+.vision{
+    width: 595px;
+    margin-top: 49px;
+    margin-left: 156px;
+}
+
+.vision h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFF;
+}
+
+.vision p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: justify;
+}
+
+.politica{
+    align-content: center;
+    display: flex;
+    border-top: 2px solid #B11830;
+    border-bottom: 2px solid #B11830;
+}
+
+.politica img{
+    width: 681px;
+}
+
+.pltc{
+    text-align: center;
+    margin-left: 69px;
+}
+
+.pltc h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #970018;
+}
+
+.pltc p{
+    width: 631px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify ;
+}
+
+.objetivos{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 968px;
+}
+
+.objetivos img{
+    width: 675px;
+    height: 837px;
+}
+
+.obj{
+    width: 765px;
+    height: 968px;
+    background-color: #d45b6d;
+    text-align: center;
+    align-items: center;
+}
+
+.obj h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.obj h2{
+    margin-left: 28px;
+    width: 697px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFF;
+    text-align: justify;
+}
+
+.obj p{
+    margin-left: 80px;
+    width: 628px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: justify;
+}
+
+.obj img{
+    width: 675px;
+    height: 837px;
+}
+
+.valores{
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid #B11830;
+    text-align: center;
+}
+
+.valores h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #B11830;
+}
+
+.valores p{
+    margin-left: 382px;
+    margin-bottom: 41px;
+    width: 676px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.valores-cont{
+    display: flex;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width:245px;
+    height: 155px;
+}
+
+.texto-valor{
+    position: absolute;
+    width: 255px;
+    height: 155px;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.front{
+    background-color: #B11830;
+    transform: perspective(500px) rotateY(0deg);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.front img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.back{
+    background-color: #FFF;
+    transform: perspective(500px) rotateY(180deg);
+    font-size: 8px;
+    font-weight: 300;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.back h1{
+    width: 90%;
+}
+
+.card:hover .front{
+    background-color: #B11830;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 148px;
+    background-color: #B11830;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.direc-cont{
+    width: 100%;
+    height: 1595px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 19px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #B11830;
+}
+
+.foto{
+    width: 311px;
+    height: 497px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.foto img{
+    width: 100%;
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.foto:hover{
+    background-color: #B11830;
+}
+
+.foto h1{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+.foto:hover h1{
+    color: #FFF;
+}
+
+.foto p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.foto:hover p{
+    color: #FFF;
+}
+
+.mapeo{
+    display: flex;
+    width: 100%;
+    height: 247px;
+    background-color: #B11830;
+    justify-content: center;
+}
+
+.mapeo h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.mapeo button{
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #970018;
+    font-weight: bold;
+    border: 0;
+    margin-top: 150px;
+}
+
+.mapeo a{
+    text-decoration: none;
+    color: #970018;
+}
+
+.estructura{
+    width: 100%;
+    height: 550px;
+    border-top: 2px solid #B11830;
+    text-align: center;
+}
+
+.estructura h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #B11830;
+    margin-bottom: 34px;
+}
+
+.organigramas{
+    display: flex;
+    width: 100%;
+    height: 161px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 37px;
+}
+
+.org{
+    width: 367px;
+    height: 161px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+
+.org h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 61px;
+}
+
+.popUp .overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+  }
+  .popUp .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 447px;
+    width: 1277px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .popUp .close-btn {
+    user-select: none;
+    position: absolute;
+    right: 0.5px;
+    top: 35px;
+    width: 30px;
+    height: 30px;
+    background: #B11830;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .popUp.active .overlay {
+    display: block;
+  }
+  .popUp.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .show {
+    width: 367px;
+    height: 161px;
+    padding: 0.5em 1em;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,157 @@
+.banner{
+    width: 100%;
+    position: relative;
+    height: 384px;
+}
+
+.banner img{
+    width: 100%;
+    height: 384px;
+}
+
+.txt{
+    position: absolute;
+    width: 100%;
+    height: 384px;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.txt h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 170px;
+    color: #FFF;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #B11830;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 450px;
+}
+
+.card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.front{
+    background-color: #B11830;
+    transform: perspective(500px) rotateY(0deg);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.back{
+    background-color: #FFF;
+    transform: perspective(500px) rotateY(180deg);
+    font-size: 10px;
+    font-weight: 300;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.back h1{
+    width: 320px;
+}
+
+.card:hover .front{
+    background-color: #B11830;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.matrices{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #B11830;
+}
+
+.item{
+    width: 400px;
+    height: 300px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    text-align: center;
+    color: #B11830;
+    border: 2px solid #FFF;
+}
+
+.item a{
+    color: #B11830;
+    text-decoration: none;
+}
+
+.item img{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.obj{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.text{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.text h1{
+    color: #B11830;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.img{
+    width: 50%;
+    height: 80%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}

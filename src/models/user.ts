@@ -38,6 +38,11 @@ const userSchema = new Schema ({
         select:false, //No se muestra en consultas a BD
         minLength:8,
     },
+    rol: {
+        type: String,
+        enum: ['rectoria', 'sec-gral', 'sub-sec-aca','sub-sec-admin', 'abogado', 'bellasartes', 'contraloria', 'difusion', 'fcfa', 'fcq', 'fts', 'tesoreria'],
+        default: 'Usuario'
+    },
 });
 
 const User = models.User || model( 'User', userSchema );

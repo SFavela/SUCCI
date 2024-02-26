@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 const SideBar = () => {
     const [open, setOpen] = useState(false)
     return (
-    <div className='z-50'>
+    <div className='z-50 relative'>
         <button className='mr-4 text-white z-10' onClick={() => setOpen(true)}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -28,7 +28,7 @@ const SideBar = () => {
                 <Link href="/views/gestioncalidad"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Gestion de Calidad</div></Link>
                 <Link href="/views/evaluaciones"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Evaluaciones</div></Link>
                 <Link href="/views/gestionriesgos"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Gestion de Riesgos</div></Link>
-                <Link href="/"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Gestion de Indicadoresd</div></Link>
+                <Link href="/"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Gestion de Indicadores</div></Link>
                 <Link href="/login"><div className='text-center text-white text-xl hover:bg-red-800 cursor-pointer py-3 mb-2 z-10'>Acceder</div></Link>
             </div>
         </div>

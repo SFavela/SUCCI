@@ -8,6 +8,7 @@ import Link from "next/link";
 
 function DashboardPage() {
 
+
     const { data: session, status } = useSession();
 
     console.log(session, status);
