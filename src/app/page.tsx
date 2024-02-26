@@ -77,8 +77,8 @@ function HomePage() {
     <div className="galeria">
         <h1>Nuestra Galería</h1>
         <div className="fotos">
-            <Image src={require("../../public/assets/DSC_0046.JPG")} width={640}height={350}alt=""/>
-            <Image src={require("../../public/assets/DSC_0171.JPG")} width={640}height={350}alt=""/>
+            <img src="../../public/assets/DSC_0046.JPG"/>
+            <img src="../../public/assets/DSC_0171.JPG"/>
             <Image src={require("../../public/assets/IMG_8487.jpg")} width={350}height={640}alt=""/>
             <div className="fotos-2">
                 <Image src={require("../../public/assets/IMG_6105.jpg")} width={446}height={263}alt=""/>
