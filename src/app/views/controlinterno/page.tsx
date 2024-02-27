@@ -275,7 +275,7 @@ function page() {
     </div>
     <div className="CTIC">
         <div className="cti-1">
-            <h1>Comité de Tecnologías de la Información y Comunicaciones (CTIC'S)</h1>
+            <h1>Comité de Tecnologías de la Información y Comunicaciones (CTICS)</h1>
             <p>Se constituye el “Comité de Tecnologías de la Información y Comunicaciones” el cual tiene a bien atender todas y cada una de las necesidades de la Universidad con criterios de racionalidad, austeridad y disciplina presupuestaria, políticas y normas de eficiencia y productividad, a través de estrategias y líneas de acción que permitan identificar, atender, evaluar y controlar la información relacionada con los procesos operativos y la cual esté disponible de la forma más oportuna y confiable para la misma Universidad, que coadyuve en la coordinación de los servicios informáticos y en el seguimiento a los diversos proyectos, planes e iniciativas de desarrollo.</p>
         </div>
         <div className="cti-2">
