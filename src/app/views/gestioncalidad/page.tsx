@@ -360,7 +360,7 @@ function page() {
                 </div>
                 <div className="ima">
                     <h1>Sistema Integral de Gestión de Calidad</h1>
-                    <p>Se conjuntan esfuerzos y se logra un mejor servicio para los usuarios, se estructuró e implementó un Sistema de Gestión de Calidad basado en la Norma ISO 9001:2008 y se integran en un solo Sistema Institucional llamado "Sistema Integral de Gestión de Calidad" (SIGC) de igual forma la biblioteca Central Universitaria se certificó como un Sistema Bibliotecario (SIBIB), posteriormente se incorporaron otras áreas de la Administración Central.</p>
+                    <p>Se conjuntan esfuerzos y se logra un mejor servicio para los usuarios, se estructuró e implementó un Sistema de Gestión de Calidad basado en la Norma ISO 9001:2008 y se integran en un solo Sistema Institucional llamado Sistema Integral de Gestión de Calidad (SIGC) de igual forma la biblioteca Central Universitaria se certificó como un Sistema Bibliotecario (SIBIB), posteriormente se incorporaron otras áreas de la Administración Central.</p>
                 </div>
                 <div className="fecha">
                     <h1>2017-2022</h1>

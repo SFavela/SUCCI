@@ -84,7 +84,7 @@ function page() {
                 </div>
               </div>
               <div className="back">
-                <h1>La gratitud va más allá de decir "gracias"; implica reconocer cómo otros nos permiten crecer y contribuir a algo mayor.</h1>
+                <h1>La gratitud va más allá de decir gracias; implica reconocer cómo otros nos permiten crecer y contribuir a algo mayor.</h1>
               </div>
             </div>
             <div className="card">
