@@ -10,7 +10,7 @@ function page() {
       <Navbar/>
       <div className="container">
             <div className="banner">
-            <Image src={require("../../../../public/assets/Identidad_banner 1.png")}width={1440}height={384}alt=""/>
+            <img src="/assets/Identidad_banner 1.png"width={1440}height={384}alt=""/>
             <div className="txt">
               <h1>Identidad</h1>
             </div>
@@ -28,7 +28,7 @@ function page() {
           </div>
           <div className="separador"></div>
           <div className="politica">
-            <Image src={require("../../../../public/assets/IMG_3833.JPG")}width={681}height={400}alt=""/>
+            <img src="/assets/IMG_3833.JPG"width={681}height={400}alt=""/>
             <div className="pltc">
               <h1>Política de calidad</h1>
               <p>La Universidad Juárez del Estado de Durango acorde a su dirección estratégica está comprometida a ofrecer servicios académicos, de investigación, administrativos y culturales, de forma eficiente, oportuna, transparente y con objetivos de calidad definidos que contribuyan a satisfacer las necesidades y expectativas de nuestros usuarios y partes interesadas integrando sus procesos en un Sistema Universitario de Calidad y Control Interno, a través de la normatividad institucional aplicable y de la mejora continua soportada en la Norma ISO 9001 vigente y en el Marco Integrado de Control Interno (MICI).</p>
@@ -46,7 +46,7 @@ function page() {
             <h2>3. Fortalecer la vinculación institucional a través de acciones pertinentes de la difusión, extensión de los servicios, la cultura, el arte y el deporte.</h2>
             <h2>4. Incrementar la satisfacción de los usuarios en relación al servicio que ofrecen los procesos del Sistema Integral Universitario de Calidad y Control Interno.</h2>
           </div>
-        <Image src={require("../../../../public/assets/DSC_0086.JPG")}width={675}height={837} alt=""/>
+        <img src="/assets/DSC_0086.JPG"width={675}height={837} alt=""/>
           </div>
           <div className="separador"></div>
           <div className="valores">
@@ -56,7 +56,7 @@ function page() {
           <div className="cards">
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/compromiso.png"/>
+                <img src="/assets/compromiso.png"/>
                 <div className="texto-valor">
                   <h1>Compromiso</h1>
                 </div>
@@ -67,7 +67,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/IMG_0083.JPG"/>
+                <img src="/assets/IMG_0083.JPG"/>
                 <div className="texto-valor">
                   <h1>Dignidad</h1>
                 </div>
@@ -78,7 +78,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets//gratitud.png"/>
+                <img src="/assets//gratitud.png"/>
                 <div className="texto-valor">
                   <h1>Gratitud</h1>
                 </div>
@@ -89,7 +89,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/honestidad.png"/>
+                <img src="/assets/honestidad.png"/>
                 <div className="texto-valor">
                   <h1>Honestidad</h1>
                 </div>
@@ -100,7 +100,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/Humildad.png"/>
+                <img src="/assets/Humildad.png"/>
                 <div className="texto-valor">
                   <h1>Humildad</h1>
                 </div>
@@ -111,7 +111,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/igualdad.png"/>
+                <img src="/assets/igualdad.png"/>
                 <div className="texto-valor">
                   <h1>Igualdad</h1>
                 </div>
@@ -122,7 +122,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/prudencia.png"/>
+                <img src="/assets/prudencia.png"/>
                 <div className="texto-valor">
                   <h1>Prudencia</h1>
                 </div>
@@ -133,7 +133,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/respeto.png"/>
+                <img src="/assets/respeto.png"/>
                 <div className="texto-valor">
                   <h1>Respeto</h1>
                 </div>
@@ -144,7 +144,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/sensibilidad.png"/>
+                <img src="/assets/sensibilidad.png"/>
                 <div className="texto-valor">
                   <h1>Sensibilidad</h1>
                 </div>
@@ -155,7 +155,7 @@ function page() {
             </div>
             <div className="card">
               <div className="front">
-                <img src="../../../../public/assets/tolerancia.png"/>
+                <img src="/assets/tolerancia.png"/>
                 <div className="texto-valor">
                   <h1>Tolerancia</h1>
                 </div>
@@ -171,57 +171,57 @@ function page() {
             </div>
             <div className="direc-cont">
               <div className="foto">
-                <img src="../../../../public/assets/Rectangle 386.png"/>
+                <img src="/assets/Rectangle 386.png"/>
                 <h1>Rector</h1>
                 <p>M.A. Rubén Solís Ríos</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/Dr.Sotelo.png"/>
+                <img src="/assets/Dr.Sotelo.png"/>
                 <h1>Secretario técnico de rectoria</h1>
                 <p>Dr. Jesús  Guillermo Sotelo Asef</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.C Julio.png"/>
+                <img src="/assets/M.C Julio.png"/>
                 <h1>Secretario general</h1>
                 <p>M.C Julio Gerardo Lozoya Vélez</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.C. José.png"/>
+                <img src="/assets/M.C. José.png"/>
                 <h1>Subsecretario general académico</h1>
                 <p>M.C. José Orthón Huerta Herrera</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.A.P. Keila.jpg"/>
+                <img src="/assets/M.A.P. Keila.jpg"/>
                 <h1>Directora de Desarrollo y Gestion de R.H </h1>
                 <p>M.A.P. Keila Dalila Torres Cepeda </p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/Dr. Enrique.png"/>
+                <img src="/assets/Dr. Enrique.png"/>
                 <h1>Abogado general</h1>
                 <p>Dr. Enrique Garcia Carranza </p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.A Edla.png"/>
+                <img src="/assets/M.A Edla.png"/>
                 <h1>Contralora general</h1>
                 <p>M.A Edla Elena Wallander García</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.C.E. Rafael.jpg"/>
+                <img src="/assets/M.C.E. Rafael.jpg"/>
                 <h1>Tesorero general</h1>
                 <p>M.C.E. Rafael Reyes Tirado</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/Dr. Jesús.png"/>
+                <img src="/assets/Dr. Jesús.png"/>
                 <h1>Director Institucional de Posgrado e investigacion</h1>
                 <p>Dr. Jaime Fernández Escárzaga</p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/Dr. Victor.png"/>
+                <img src="/assets/Dr. Victor.png"/>
                 <h1>Subsecretario general administrativo</h1>
                 <p>Dr. Victor Manuel Aguilar Barraza </p>
               </div>
               <div className="foto">
-                <img src="../../../../public/assets/M.P.C.D. Linda.png"/>
+                <img src="/assets/M.P.C.D. Linda.png"/>
                 <h1>Directora de comunicacion social</h1>
                 <p>M.P.C.D. Linda Cristal Rodriguez Simental</p>
               </div>
@@ -230,7 +230,7 @@ function page() {
           <div className="separador"></div>
           <div className="mapeo">
             <h1>Mapeo General de Procesos</h1>
-            <button><a href="../docs/identidad/MapeoGeneralProcesos.pdf">Ver mas</a></button>
+            <button><a href="/docs/identidad/MapeoGeneralProcesos.pdf" download={"MapeoGeneralProcesos.pdf"}>Ver mas</a></button>
           </div>
           <div className="separador"></div>
           <div className="estructura">

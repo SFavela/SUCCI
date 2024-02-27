@@ -8,7 +8,7 @@ function page() {
     <div>
       <Navbar/>
       <div className="banner">
-        <img src="../recursos/IMG_9425-1-scaled 1.png"/>
+        <img src="/assets/IMG_9425-1-scaled 1.png"/>
         <div className="txt">
             <h1>Control Interno</h1>
         </div>
@@ -35,13 +35,13 @@ function page() {
             <p>Cada componente está asociado con principios que tienen características específicas, los cuales respaldan el diseño, implementación y operación de los componentes asociados de control interno y representan los requerimientos necesarios para establecer un control interno eficaz, eficiente, económico y suficiente conforme a la naturaleza, tamaño, disposiciones jurídicas y mandato de la Institución.</p>
         </div>
         <div className="img-comp">
-            <img src="../recursos/MUSEOREGIONALDEDURANGO 1.png"/>
+            <img src="/assets/MUSEOREGIONALDEDURANGO 1.png"/>
         </div>
     </div>
     <div className="ambi">
         <div className="ambi-ctrl">
             <div className="ctrl-img">
-                <img src="../recursos/ambiente.png"/>
+                <img src="/assets/ambiente.png"/>
             </div>
             <div className="ambi-txt">
                 <h1>1. Ambiente de control</h1>
@@ -51,23 +51,23 @@ function page() {
         </div>
         <div className="ambi-img">
             <div className="img-txt">
-                <img src="../recursos/1.1.png"/>
+                <img src="/assets/1.1.png"/>
                 <h1>1. Mostrar actitud de Respaldo y Compromiso</h1>
             </div>
             <div className="img-txt">
-                <img src="../recursos/1.2.png"/>
+                <img src="/assets/1.2.png"/>
                 <h1>2. Ejercer la Responsabilidad de Vigilancia</h1>
             </div>
             <div className="img-txt">
-                <img src="../recursos/1.3.png"/>
+                <img src="/assets/1.3.png"/>
                 <h1>3. Establecer la Estructura, Responsabilidad y Autoridad</h1>
             </div>
             <div className="img-txt">
-                <img src="../recursos/4.png"/>
+                <img src="/assets/4.png"/>
                 <h1>4. Demostrar Compromiso con la Competencia Profesional</h1>
             </div>
             <div className="img-txt">
-                <img src="../recursos/5.png"/>
+                <img src="/assets/5.png"/>
                 <h1>5. Establecer la Estructura para el Reforzamiento de la Rendición de Cuentas</h1>
             </div>
         </div>
@@ -80,24 +80,24 @@ function page() {
                 <p>Los principios para vigilar la evaluación de los riesgos que amenazan el logro de objetivos, incluyendo el impacto potencial de los cambios significativos, la corrupción, el fraude y la elusión de controles por parte de cualquier servidor público, son:</p>
             </div>
             <div className="admin-img">
-                <img src="../recursos/20170323_145246-scaled 1.png"/>
+                <img src="/assets/20170323_145246-scaled 1.png"/>
             </div>
         </div>
         <div className="admin-2">
             <div className="admn-img">
-                <img src="../recursos/2.1.png"/>
+                <img src="/assets/2.1.png"/>
                 <h1>6. Definir Objetivos y Tolerancias al Riesgo</h1>          
             </div>
             <div className="admn-img">
-                <img src="../recursos/2.2.png"/>
+                <img src="/assets/2.2.png"/>
                 <h1>7. Identificar, Analizar y Responder a los Riesgos</h1>
             </div>
             <div className="admn-img">
-                <img src="../recursos/2.3.png"/>
+                <img src="/assets/2.3.png"/>
                 <h1>8. Considerar el Riesgo de Corrupción</h1>
             </div>
             <div className="admn-img">
-                <img src="../recursos/2.4.png"/>
+                <img src="/assets/2.4.png"/>
                 <h1>9. Identificar, Analizar y Responder al Cambio</h1>
             </div>
         </div>
@@ -105,7 +105,7 @@ function page() {
     <div className="act-ctrl">
         <div className="act-ctrl-1">
             <div className="act-imgs">
-                <img src="../recursos/image 14.png" id="img-2"/>
+                <img src="/assets/image-14.png"/>
             </div>
             <div className="act-txt">
                 <h1>3. Actividades de control</h1>
@@ -114,15 +114,15 @@ function page() {
         </div>
         <div className="act-ctrl-2">
             <div className="act-img">
-                <img src="../recursos/3.1.png"/>
+                <img src="/assets/3.1.png"/>
                 <h1>10. Diseñar Actividades de Control</h1>
             </div>
             <div className="act-img">
-                <img src="../recursos/3.2.png"/>
+                <img src="/assets/3.2.png"/>
                 <h1>11. Implementar Actividades de Control</h1>
             </div>
             <div className="act-img">
-                <img src="../recursos/3.3.png"/>
+                <img src="/assets/3.3.png"/>
                 <h1>12. Diseñar Actividades para los Sistemas de Información</h1>
             </div>
         </div>
@@ -135,27 +135,27 @@ function page() {
                 <p>La Administración requiere tener acceso a comunicaciones relevantes y confiables en relación con los eventos internos y externos, así como analizar y discutir la información relativa al logro de los objetivos institucionales. Los principios relacionados con este componente son:</p>
             </div>
             <div className="info-img">
-                <img src="../recursos/image 15.png"/>
+                <img src="/assets/image 15.png"/>
             </div>
         </div>
         <div className="inf-2">
             <div className="inf-img">
-                <img src="../recursos/3.1.png"/>
+                <img src="/assets/3.1.png"/>
                 <h1>13. Usar Información de Calidad</h1>
             </div>
             <div className="inf-img">
-                <img src="../recursos/3.2.png"/>
+                <img src="/assets/3.2.png"/>
                 <h1>14. Comunicar Internamente</h1>
             </div>
             <div className="inf-img">
-                <img src="../recursos/3.3.png"/>
+                <img src="/assets/3.3.png"/>
                 <h1>15. Comunicar Externamente</h1>
             </div>
         </div>
         <div className="super">
             <div className="sup-1">
                 <div className="sup-img">
-                    <img src="../recursos/supervision.png"/>
+                    <img src="/assets/supervision.png"/>
                 </div>
                 <div className="sup-txt">
                     <h1>5. Supervisión</h1>
@@ -164,11 +164,11 @@ function page() {
             </div>
             <div className="sup-2">
                 <div className="sup-imgs">
-                    <img src="../recursos/3.1.png"/>
+                    <img src="/assets/3.1.png"/>
                     <h1>16. Realizar Actividades de Supervisión</h1>
                 </div>
                 <div className="sup-imgs">
-                    <img src="../recursos/3.2.png"/>
+                    <img src="/assets/3.2.png"/>
                     <h1>17. Evaluar los Problemas y Corregir las Deficiencias</h1>
                 </div>
             </div>
@@ -184,27 +184,27 @@ function page() {
         </div>
         <div className="coco-2">
             <div className="coco-item">
-                <img src="../recursos/Estructura.png"/>
-                <h1><a href="../docs/controlinterno/COCODI/Estructura.pdf" download>Estructura</a></h1>
+                <img src="/assets/Estructura.png"/>
+                <h1><a href="/docs/controlinterno/COCODI/Estructura.pdf" download>Estructura</a></h1>
             </div>
             <div className="coco-item">
-                <img src="../recursos/Directorio.png"/>
-                <h1><a href="../docs/controlinterno/COCODI/Directorio.pdf" download>Directorio</a></h1>
+                <img src="/assets/Directorio.png"/>
+                <h1><a href="/docs/controlinterno/COCODI/Directorio.pdf" download>Directorio</a></h1>
             </div>
             <div className="coco-item">
-                <img src="../recursos/Lineamientos.png"/>
-                <h1><a href="../docs/controlinterno/COCODI/Lineamientos.pdf" download>Lineamientos</a></h1>
+                <img src="/assets/Lineamientos.png"/>
+                <h1><a href="/docs/controlinterno/COCODI/Lineamientos.pdf" download>Lineamientos</a></h1>
             </div>
             <div className="coco-item">
-                <img src="../recursos/Programa anual de trabajo.png"/>
-                <h1><a href="../docs/controlinterno/COCODI/Programa-Anual-de-Trabajo.pdf" download>Programa anual de trabajo</a></h1>
+                <img src="/assets/Programa anual de trabajo.png"/>
+                <h1><a href="/docs/controlinterno/COCODI/Programa-Anual-de-Trabajo.pdf" download>Programa anual de trabajo</a></h1>
             </div>
             <div className="coco-item">
-                <img src="../recursos/Sesiones.png"/>
+                <img src="/assets/Sesiones.png"/>
                 <h1>Sesiones</h1>
             </div>
             <div className="coco-item">
-                <img src="../recursos/Informes.png"/>
+                <img src="/assets/Informes.png"/>
                 <h1>Informes</h1>
             </div>
         </div>
@@ -216,27 +216,27 @@ function page() {
         </div>
         <div className="car-2">
             <div className="car-item">
-                <img src="../recursos/Estructura.png"/>
-                <h1><a href="../docs/controlinterno/CAR/Estructura.pdf" download>Estructura</a></h1>
+                <img src="/assets/Estructura.png"/>
+                <h1><a href="/docs/controlinterno/CAR/Estructura.pdf" download>Estructura</a></h1>
             </div>
             <div className="car-item">
-                <img src="../recursos/Directorio.png"/>
-                <h1><a href="../docs/controlinterno/CAR/Directorio.pdf" download>Directorio</a></h1>
+                <img src="/assets/Directorio.png"/>
+                <h1><a href="/docs/controlinterno/CAR/Directorio.pdf" download>Directorio</a></h1>
             </div>
             <div className="car-item">
-                <img src="../recursos/Lineamientos.png"/>
-                <h1><a href="../docs/controlinterno/CAR/Lineamientos_autorizados.pdf" download>Lineamientos</a></h1>
+                <img src="/assets/Lineamientos.png"/>
+                <h1><a href="/docs/controlinterno/CAR/Lineamientos_autorizados.pdf" download>Lineamientos</a></h1>
             </div>
             <div className="car-item">
-                <img src="../recursos/Programa anual de trabajo.png"/>
-                <h1><a href="../docs/controlinterno/CAR/Programa-Anual-de-Trabajo_autorizado.pdf" download>Programa anual de trabajo</a></h1>
+                <img src="/assets/Programa anual de trabajo.png"/>
+                <h1><a href="/docs/controlinterno/CAR/Programa-Anual-de-Trabajo_autorizado.pdf" download>Programa anual de trabajo</a></h1>
             </div>
             <div className="car-item">
-                <img src="../recursos/Sesiones.png"/>
+                <img src="/assets/Sesiones.png"/>
                 <h1>Sesiones</h1>
             </div>
             <div className="car-item">
-                <img src="../recursos/Informes.png"/>
+                <img src="/assets/Informes.png"/>
                 <h1>Informes</h1>
             </div>
         </div>
@@ -248,27 +248,27 @@ function page() {
         </div>
         <div className="cei-2">
             <div className="cei-item">
-                <img src="../recursos/Estructura.png"/>
-                <h1><a href="../docs/controlinterno/CEI/Estructura.pdf" download>Estructura</a></h1>
+                <img src="/assets/Estructura.png"/>
+                <h1><a href="/docs/controlinterno/CEI/Estructura.pdf" download>Estructura</a></h1>
             </div>
             <div className="cei-item">
-                <img src="../recursos/Directorio.png"/>
-                <h1><a href="../docs/controlinterno/CEI/Directorio.pdf" download>Directorio</a></h1>
+                <img src="/assets/Directorio.png"/>
+                <h1><a href="/docs/controlinterno/CEI/Directorio.pdf" download>Directorio</a></h1>
             </div>
             <div className="cei-item">
-                <img src="../recursos/Lineamientos.png"/>
-                <h1><a href="../docs/controlinterno/CEI/Lineamientos.pdf" download>Lineamientos</a></h1>
+                <img src="/assets/Lineamientos.png"/>
+                <h1><a href="/docs/controlinterno/CEI/Lineamientos.pdf" download>Lineamientos</a></h1>
             </div>
             <div className="cei-item">
-                <img src="../recursos/Programa anual de trabajo.png"/>
-                <h1><a href="../docs/controlinterno/CEI/Programa-Anual-de-Trabajo_autorizado.pdf" download>Programa anual de trabajo</a></h1>
+                <img src="/assets/Programa anual de trabajo.png"/>
+                <h1><a href="/docs/controlinterno/CEI/Programa-Anual-de-Trabajo_autorizado.pdf" download>Programa anual de trabajo</a></h1>
             </div>
             <div className="cei-item">
-                <img src="../recursos/Sesiones.png"/>
+                <img src="/assets/Sesiones.png"/>
                 <h1>Sesiones</h1>
             </div>
             <div className="cei-item">
-                <img src="../recursos/Informes.png"/>
+                <img src="/assets/Informes.png"/>
                 <h1>Informes</h1>
             </div>
         </div>
@@ -280,27 +280,27 @@ function page() {
         </div>
         <div className="cti-2">
             <div className="cti-item">
-                <img src="../recursos/Estructura.png"/>
-                <h1><a href="../docs/controlinterno/CTIC/Estructura.pdf" download>Estructura</a></h1>
+                <img src="/assets/Estructura.png"/>
+                <h1><a href="/docs/controlinterno/CTIC/Estructura.pdf" download>Estructura</a></h1>
             </div>
             <div className="cti-item">
-                <img src="../recursos/Directorio.png"/>
-                <h1><a href="../docs/controlinterno/CTIC/Directorio.pdf" download>Directorio</a></h1>
+                <img src="/assets/Directorio.png"/>
+                <h1><a href="/docs/controlinterno/CTIC/Directorio.pdf" download>Directorio</a></h1>
             </div>
             <div className="cti-item">
-                <img src="../recursos/Lineamientos.png"/>
-                <h1><a href="../docs/controlinterno/CTIC/Lineamientos.pdf" download>Lineamientos</a></h1>
+                <img src="/assets/Lineamientos.png"/>
+                <h1><a href="/docs/controlinterno/CTIC/Lineamientos.pdf" download>Lineamientos</a></h1>
             </div>
             <div className="cti-item">
-                <img src="../recursos/Programa anual de trabajo.png"/>
-                <h1><a href="../docs/controlinterno/CTIC/Programa-Anual-de-Trabajo.pdf" download>Programa anual de trabajo</a></h1>
+                <img src="/assets/Programa anual de trabajo.png"/>
+                <h1><a href="/docs/controlinterno/CTIC/Programa-Anual-de-Trabajo.pdf" download>Programa anual de trabajo</a></h1>
             </div>
             <div className="cti-item">
-                <img src="../recursos/Sesiones.png"/>
+                <img src="/assets/Sesiones.png"/>
                 <h1>Sesiones</h1>
             </div>
             <div className="cti-item">
-                <img src="../recursos/Informes.png"/>
+                <img src="/assets/Informes.png"/>
                 <h1>Informes</h1>
             </div>
         </div>
@@ -311,7 +311,7 @@ function page() {
             <p>La Universidad Juárez del Estado de Durango (UJED), en su carácter de ente público como órgano autónomo y en el marco de su compromiso histórico con la sociedad duranguense de educar con excelencia a sus hombres y mujeres, ha establecido que la operación y funcionamiento mediante todos sus procesos tanto operativos como administrativos, se desempeñen buscando siempre el desarrollo armónico en todos los aspectos de la vida universitaria, con total transparencia y rendición de cuentas.</p>
         </div>
         <div className="manual-img">
-            <img src="../recursos/2021-02-26-Manual-SUCI-Konny-001 1.png"/>
+            <img src="/assets/2021-02-26-Manual-SUCI-Konny-001 1.png"/>
         </div>
     </div>
     </div>

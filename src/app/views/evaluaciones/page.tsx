@@ -8,13 +8,13 @@ function page() {
     <div>
       <Navbar/>
       <div className="banner">
-      <img src="../recursos/ujed10.jpg"/>
+      <img src="/assets/ujed10.jpg"/>
       <div className="txt">
           <h1>Evaluaciones</h1>
       </div>
       <div className="secc-1">
         <div className="img">
-          <img src="../recursos/Imagen 040.jpg"/>
+          <img src="/assets/Imagen 040.jpg"/>
         </div>
         <div className="text">
           <h1>¿Por qué es Importante Evaluarnos?</h1>
@@ -24,7 +24,7 @@ function page() {
       </div>
       <div className="secc-2">
         <div className="banner">
-          <img src="../recursos/ujed18.jpg"/>
+          <img src="/assets/ujed18.jpg"/>
           <div className="txt">
               <h1><a href="https://evalcaliso.ujed.mx/">EVALCALISO</a></h1>
               <button type="button" className="butt"><a href="">Ver mas</a></button>
@@ -59,7 +59,7 @@ function page() {
         <p>Conjunto de mecanismos de verificación y evaluación, que le permite a la Institución auto diagnosticar su situación de control, al proveer la información necesaria para establecer si este funciona efectivamente o si existen desviaciones en su operación que afecten el objetivo para el cual fue creado y determinan la calidad y efectividad de los controles internos a nivel de los procesos y de cada área organizacional responsable, permitiendo emprender las acciones de mejoramiento de control requerido.</p>
       </div>
       <div className="banner">
-        <img src="../recursos/ujed11.jpg"/>
+        <img src="/assets/ujed11.jpg"/>
         <div className="txt">
             <h1>Autoevaluaciones de Control Interno</h1>
             <button type="button" className="butt">Ver mas</button>

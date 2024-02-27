@@ -56,7 +56,7 @@
 .front{
     background-color: #B11830;
     transform: perspective(500px) rotateY(0deg);
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 700;
     color: #FFF;
     border-radius: 10px;
@@ -75,6 +75,7 @@
 
 .back h1{
     width: 320px;
+    font-size: 18px;
 }
 
 .card:hover .front{

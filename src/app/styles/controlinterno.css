@@ -379,7 +379,7 @@
 
 .cocodi{
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     border-bottom: 2px solid #B11830;
 }
 
@@ -435,7 +435,7 @@
 
 .CAR{
     width: 100%;
-    height: 1080px;
+    height: 1200px;
     border-bottom: 2px solid #B11830;
 }
 
@@ -493,7 +493,7 @@
 
 .CEI{
     width: 100%;
-    height: 1080px;
+    height: 1150px;
     border-bottom: 2px solid #B11830;
 }
 
@@ -551,7 +551,7 @@
 
 .CTIC{
     width: 100%;
-    height: 1130px;
+    height: 1200px;
 }
 
 .cti-1{
@@ -618,6 +618,7 @@
     background-color: #B11830;
     color: #FFF;
     position: absolute;
+
 }
 
 .manu-ci h1{
@@ -625,7 +626,8 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-left: 53.87px
+    margin-left: 53.87px;
+    margin-top: 20px;
 }
 
 .manu-ci p{
@@ -634,6 +636,7 @@
     text-align: justify;
     width: 662px;
     margin-left: 88.05px;
+    margin-top: 20px;
 }
 
 .manual-img{

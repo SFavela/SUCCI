@@ -8,7 +8,7 @@ function page() {
     <div>
       <Navbar/>
       <div className="banner">
-        <img src="../recursos/ujed12.jpg"/>
+        <img src="/assets/ujed12.jpg"/>
         <div className="txt">
             <h1>Sistema de Gestión de Calidad</h1>
         </div>
@@ -35,56 +35,56 @@ function page() {
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-solicitar-e-integrar-la-informacion-de-entrada-para-la-reunion-de-revision-por-la-direccion.pdf" download>Lineamientos para Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-solicitar-e-integrar-la-informacion-de-entrada-para-la-reunion-de-revision-por-la-direccion.pdf" download>Lineamientos para Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-la-operacion-de-la-alta-direccion-y-comite-de-calidad-autoridad-y-responsabilidad-del-SGC.pdf" download>Lineamientos para la Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-la-operacion-de-la-alta-direccion-y-comite-de-calidad-autoridad-y-responsabilidad-del-SGC.pdf" download>Lineamientos para la Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Elaboración de Documentos</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Elaboracion-de-Documentos.pdf" download>P.7.5.2 Procedimiento de Elaboración de Documentos</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Elaboracion-de-Documentos.pdf" download>P.7.5.2 Procedimiento de Elaboración de Documentos</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Control de Información Documentada</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_documentos.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Documentos</a></p>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_registros.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Registros</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_documentos.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Documentos</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_registros.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Registros</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Salidas No Conformes</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Salidas-no-conformes.pdf" download>P8.7 Procedimiento de Salidas No Conformes</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Salidas-no-conformes.pdf" download>P8.7 Procedimiento de Salidas No Conformes</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Auditorías Internas</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Auditorias-Internas.pdf" download>P9.2 Procedimiento de Auditorias Internas </a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Auditorias-Internas.pdf" download>P9.2 Procedimiento de Auditorias Internas </a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Revisión por la Dirección</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Procedimiento-de-Revision-por-la-Direccion.pdf" download>P9.3 Procedimiento de Revisión por la Dirección</a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Procedimiento-de-Revision-por-la-Direccion.pdf" download>P9.3 Procedimiento de Revisión por la Dirección</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Acciones Correctivas</h2>
-                    <p><a href="../docs/gestioncalidad/procedimientosdocumentados/Acciones-Correctivas.pdf" download>P10.2 Procedimiento de Acciones Correctivas </a></p>
+                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Acciones-Correctivas.pdf" download>P10.2 Procedimiento de Acciones Correctivas </a></p>
                 </li>
             </ul>
         </div>
     </div>
     <div className="banner">
-        <img src="../recursos/ujed13.jpg"/>
+        <img src="/assets/ujed13.jpg"/>
         <div className="txt">
             <h1>Registros del SGC</h1>
             <button type="button" className="pi-butt">Ver mas</button>
@@ -95,7 +95,7 @@ function page() {
         <p>Los registros del sistema son las evidencias de las tareas realizadas en el sistema de gestión de la calidad. Además, los registros son la base en la que encuentran los datos para analizar el comportamiento y las mejoras de cada uno de los procesos del Sistema de Gestión de Calidad. </p>
     </div>
     <div className="banner">
-        <img src="../recursos/ujed14.jpg"/>
+        <img src="/assets/ujed14.jpg"/>
         <div className="txt">
             <h1>Áreas Certificadas</h1>
         </div>
@@ -104,33 +104,33 @@ function page() {
         <h1>Áreas Culturales</h1>
         <div className="cont">
             <div className="item">
-                <img src="../recursos/IMG_8451.JPG"/>
+                <img src="/assets/IMG_8451.JPG"/>
                 <h1><a className="link" href="https://www.ujed.mx/difusion-cultural">Difusión Cultural UJED</a></h1>
             </div>
             <div className="item">
-                <img src="../recursos/radio.jpg"/>
+                <img src="/assets/radio.jpg"/>
                 <h1><a className="link" href="https://radio.ujed.mx">Radio UJED</a></h1>
             </div>
             <div className="item">
-                <img src="../recursos/libreria.jpg"/>
+                <img src="/assets/libreria.jpg"/>
                 <h1><a className="link" href="https://www.facebook.com/people/Libreria-UJED/100057190432005/?mibextid=ZbWKwL">Librería UJED</a></h1>
             </div>
             <div className="item">
-                <img src="../recursos/editorial.jpg"/>
+                <img src="/assets/editorial.jpg"/>
                 <h1><a className="link" href="https://editorial.ujed.mx">Editorial UJED</a></h1>
             </div>
             <div className="item">
-                <img src="../recursos/tv.jpg"/>
+                <img src="/assets/tv.jpg"/>
                 <h1><a className="link" href="https://www.ujed.mx/television-universitaria">TV UJED</a></h1>
             </div>
             <div className="item">
-                <img src="../recursos/museo.jpg"/>
+                <img src="/assets/museo.jpg"/>
                 <h1><a className="link" href="http://museo.ujed.mx">Museo Regional</a></h1>
             </div>
         </div>
     </div>
     <div className="banner">
-        <img src="../recursos/ujed15.jpg"/>
+        <img src="/assets/ujed15.jpg"/>
         <div className="txt">
             <h1>Áreas Administrativas</h1>
             <p>Unidad Central</p>
@@ -139,7 +139,7 @@ function page() {
     <div className="cards">
         <div className="card">
           <div className="front">
-            <img src="../recursos/rectoria.jpg"/>
+            <img src="/assets/rectoria.jpg"/>
             <div className="texto-valor">
               <h1>Rectoría</h1>
             </div>
@@ -151,7 +151,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/secretaria-gral.jpg"/>
+            <img src="/assets/secretaria-gral.jpg"/>
               <div className="texto-valor">
                 <h1>Secretaría General</h1>
               </div>
@@ -166,7 +166,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/secretaria-tec.jpg"/>
+            <img src="/assets/secretaria-tec.jpg"/>
             <div className="texto-valor">
               <h1>Secretaría Técnica</h1>
             </div>
@@ -176,7 +176,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/subsec-gral-aca.jpg"/>
+            <img src="/assets/subsec-gral-aca.jpg"/>
             <div className="texto-valor">
               <h1>Subsecretaría General Académica</h1>
             </div>
@@ -190,7 +190,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/subsec-gral-admin.jpg"/>
+            <img src="/assets/subsec-gral-admin.jpg"/>
             <div className="texto-valor">
               <h1>Subsecretaría General Administrativa </h1>
             </div>
@@ -206,7 +206,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/investigacion.jpg"/>
+            <img src="/assets/investigacion.jpg"/>
             <div className="texto-valor">
               <h1>Investigación y Posgrado</h1>
             </div>
@@ -216,7 +216,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/tesoreria.jpg"/>
+            <img src="/assets/tesoreria.jpg"/>
             <div className="texto-valor">
               <h1>Tesorería General</h1>
             </div>
@@ -230,7 +230,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/contraloria.jpg"/>
+            <img src="/assets/contraloria.jpg"/>
             <div className="texto-valor">
               <h1>Contraloría General</h1>
             </div>
@@ -244,7 +244,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/abogado-gral.jpg"/>
+            <img src="/assets/abogado-gral.jpg"/>
             <div className="texto-valor">
               <h1>Abogado General</h1>
             </div>
@@ -256,7 +256,7 @@ function page() {
         </div>
         <div className="card">
           <div className="front">
-            <img src="../recursos/difusion.jpg"/>
+            <img src="/assets/difusion.jpg"/>
             <div className="texto-valor">
               <h1>Difusión Cultural</h1>
             </div>
@@ -271,31 +271,31 @@ function page() {
         </div>
       </div>
     <div className="banner">
-        <img src="../recursos/ujed16.jpg"/>
+        <img src="/assets/ujed16.jpg"/>
         <div className="txt">
             <h1>Áreas Académicas</h1>
         </div>
     </div>
     <div className="secc-6">
         <div className="academia">
-            <img src="../recursos/fcq.jpeg"/>
+            <img src="/assets/fcq.jpeg"/>
             <h1><a href="https://fcq.ujed.mx">Facultad de Ciencias Químicas</a></h1>
         </div>
         <div className="academia">
-            <img src="../recursos/fts.jpg"/>
+            <img src="/assets/fts.jpg"/>
             <h1><a href="https://www.ujed.mx/facultad-de-trabajo-social">Facultad de Trabajo Social</a></h1>
         </div>
         <div className="academia">
-            <img src="../recursos/fcfa.jpg"/>
+            <img src="/assets/fcfa.jpg"/>
                 <h1><a href="http://forestales.ujed.mx/forestales/es/">Facultad de Ciencas Forestales y Ambientales</a></h1>
         </div>
         <div className="academia">
-            <img src="../recursos/isim.jpg"/>
+            <img src="/assets/isim.jpg"/>
             <h1><a href="https://isima.ujed.mx">Instituto de Silvicultura e Industria de la Madera</a></h1>
         </div>
     </div>
     <div className="banner">
-        <img src="../recursos/ujed16.jpg"/>
+        <img src="/assets/ujed16.jpg"/>
         <div className="txt">
             <h1>Solicitud de Control de Documentos</h1>
             <button type="button" className="pi-butt">Solicitud</button>
@@ -307,7 +307,7 @@ function page() {
         <div className="cursos">
             <div className="curso">
                 <div className="img-curso">
-                    <img src="../recursos/curso1.jpg"/>
+                    <img src="/assets/curso1.jpg"/>
                     <div className="texto-curso">
                         <h1>Curso: Herramienta para la Mejora Continua y la Solución de No Conformidades</h1>
                         <p>Año 2017</p>
@@ -316,7 +316,7 @@ function page() {
             </div>
             <div className="curso">
                 <div className="img-curso">
-                    <img src="../recursos/DSC_0003.JPG"/>
+                    <img src="/assets/DSC_0003.JPG"/>
                     <div className="texto-curso">
                         <h1>Curso: Reforzamiento de Prácticas de Auditoría</h1>
                         <p>Año 2017</p>
@@ -325,7 +325,7 @@ function page() {
             </div>
             <div className="curso">
                 <div className="img-curso">
-                    <img src="../recursos/curso3.jpg"/>
+                    <img src="/assets/curso3.jpg"/>
                     <div className="texto-curso">
                         <h1>Curso: Gestión de Riesgos</h1>
                         <p>Año 2018</p>
@@ -334,7 +334,7 @@ function page() {
             </div>
             <div className="curso">
                 <div className="img-curso">
-                    <img src="../recursos/curso4.jpeg"/>
+                    <img src="/assets/curso4.jpeg"/>
                     <div className="texto-curso">
                         <h1>Curso: Formación de Líder del equipo Auditor del SIGC Norma ISO 19011-2011</h1>
                         <p>Año 2019</p>
@@ -344,7 +344,7 @@ function page() {
         </div>
     </div>
     <div className="banner">
-        <img src="../recursos/ujed18.jpg"/>
+        <img src="/assets/ujed18.jpg"/>
         <div className="txt">
             <h1>Certificados de Calidad</h1>
             <button type="button" className="pi-butt">Ver mas</button>

@@ -8,7 +8,7 @@ function page() {
     <div>
       <Navbar/>
       <div className="banner">
-      <img src="../recursos/1403814 1.png"/>
+      <img src="/assets/1403814 1.png"/>
       <div className="txt">
           <h1>Gestión de Riesgos</h1>
       </div>
@@ -41,15 +41,15 @@ function page() {
   </div>
   <div className="matrices">
     <div className="item">
-      <img src="../recursos/"/>
-      <h1><a href="../docs/gestionriesgos/AN無ISIS FODA RECTORIA 2021.pdf">FODA</a></h1>
+      <img src="/assets/"/>
+      <h1><a href="/docs/gestionriesgos/AN無ISIS FODA RECTORIA 2021.pdf" download>FODA</a></h1>
     </div>
     <div className="item">
-      <img src="../recursos/"/>
-      <h1><a href="../docs/gestionriesgos/MATRIZ DE NECESIDADES Y EXPECTATIVAS DE LAS PARTES INTERESADAS INSTITUCIONAL.pdf">MNEPII</a></h1>
+      <img src="/assets/"/>
+      <h1><a href="/docs/gestionriesgos/MATRIZ DE NECESIDADES Y EXPECTATIVAS DE LAS PARTES INTERESADAS INSTITUCIONAL.pdf" download>MNEPII</a></h1>
     </div>
     <div className="item">
-      <img src="../recursos/"/>
+      <img src="/assets/"/>
       <h1><a href="https://docs.google.com/spreadsheets/d/1Cg2QcIaFsfgnRrcQka7sCNtnSche54S7GOsMZ_JCSF4/edit#gid=715774160">MAR</a></h1>
     </div>
   </div>
@@ -59,7 +59,7 @@ function page() {
       <p>Identificar, Controlar y Eliminar las fuentes del riesgo antes de que empiecen a afectar al cumplimiento de los objetivos del proyecto.</p>
     </div>
     <div className="img">
-      <img src="../recursos/IMG_0327.JPG"/>
+      <img src="/assets/IMG_0327.JPG"/>
     </div>
     </div>
     </div>
