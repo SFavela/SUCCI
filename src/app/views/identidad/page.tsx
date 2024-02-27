@@ -10,7 +10,7 @@ function page() {
       <Navbar/>
       <div className="container">
             <div className="banner">
-            <img src="/assets/Identidad_banner 1.png"width={1440}height={384}alt=""/>
+            <img src="/assets/Identidad_banner 1.png"/>
             <div className="txt">
               <h1>Identidad</h1>
             </div>
@@ -28,7 +28,7 @@ function page() {
           </div>
           <div className="separador"></div>
           <div className="politica">
-            <img src="/assets/IMG_3833.JPG"width={681}height={400}alt=""/>
+            <img src="/assets/IMG_3833.JPG"/>
             <div className="pltc">
               <h1>Política de calidad</h1>
               <p>La Universidad Juárez del Estado de Durango acorde a su dirección estratégica está comprometida a ofrecer servicios académicos, de investigación, administrativos y culturales, de forma eficiente, oportuna, transparente y con objetivos de calidad definidos que contribuyan a satisfacer las necesidades y expectativas de nuestros usuarios y partes interesadas integrando sus procesos en un Sistema Universitario de Calidad y Control Interno, a través de la normatividad institucional aplicable y de la mejora continua soportada en la Norma ISO 9001 vigente y en el Marco Integrado de Control Interno (MICI).</p>
@@ -46,7 +46,7 @@ function page() {
             <h2>3. Fortalecer la vinculación institucional a través de acciones pertinentes de la difusión, extensión de los servicios, la cultura, el arte y el deporte.</h2>
             <h2>4. Incrementar la satisfacción de los usuarios en relación al servicio que ofrecen los procesos del Sistema Integral Universitario de Calidad y Control Interno.</h2>
           </div>
-        <img src="/assets/DSC_0086.JPG"width={675}height={837} alt=""/>
+        <img src="/assets/DSC_0086.JPG"/>
           </div>
           <div className="separador"></div>
           <div className="valores">
@@ -237,24 +237,24 @@ function page() {
             <h1>Estructura organica UJED</h1>
             <div className="organigramas">
               <div className="org">
-                <div className="popUp" id="popUp-1">
+                <div className="popUp">
                   <div className="overlay" ></div>
                   <div className="content">
-                    <div className="close-btn" >&times;</div>
+                    <div className="close-btn"></div>
                     <img src="../recursos/image 11.png"/>
                   </div>
                 </div>
                 <button className="show" >Organigrama general UJED</button>
               </div>
               <div className="org">
-                <div className="popUp" id="popUp-2">
+                <div className="popUp">
                   <div className="overlay" ></div>
                   <div className="content">
-                    <div className="close-btn" >&times;</div>
+                    <div className="close-btn" ></div>
                     <img src="../recursos/image 12.png"/>
                   </div>
                 </div>
-                <button className="show" >Organigrama de la contraloria general UJED</button>
+                <button className="show">Organigrama de la contraloria general UJED</button>
               </div>
             </div>
           </div>

@@ -59,7 +59,7 @@ function HomePage() {
             </div>
             <div className="cont">
                 <div className="img">
-                    <img src="/assets/img_2.png"width={300}height={400}alt=""/>
+                    <img src="/assets/img_2.png"/>
                     <div className="text">
                         <h1>Se lleva a cabo Auditoria Interna de Calidad 2021</h1>
                         <p>El 16 de noviembre dio inicio la Auditoría Interna al Sistema de Gestión de Calidad de la UJED considerando 51 áreas que se encuentran dentro del alcance, concluyendo el 3 de diciembre.</p>
@@ -77,19 +77,19 @@ function HomePage() {
     <div className="galeria">
         <h1>Nuestra Galería</h1>
         <div className="fotos">
-            <img src="/assets/DSC_0046.PNG" width={640}height={350}alt=""/>
-            <img src="/assets/DSC_0171.PNG" width={640}height={350}alt=""/>
-            <img src="/assets/IMG_8487.jpg" width={350}height={640}alt=""/>
+            <img src="/assets/DSC_0046.PNG"/>
+            <img src="/assets/DSC_0171.PNG"/>
+            <img src="/assets/IMG_8487.jpg"/>
             <div className="fotos-2">
-                <img src="/assets/IMG_6105.jpg" width={446}height={263}alt=""/>
-                <img src="/assets/DSC_0015.jpg" width={446}height={263} alt=""/>
+                <img src="/assets/IMG_6105.jpg"/>
+                <img src="/assets/DSC_0015.jpg"/>
             </div>
-            <img src="/assets/DSC_0087.jpg" width={473}height={552}alt=""/>
+            <img src="/assets/DSC_0087.jpg"/>
         </div>
     </div>
     <div className="separador"></div>
     <div className="banner">
-        <img src="/assets/image 10.png" width={1438}height={360}alt=""/>
+        <img src="/assets/image 10.png"/>
         <div className="txt">
             <h1>Página Institucional</h1>
             <button type="button" className="pi-butt"><a href="https://www.ujed.mx/">Ver mas</a></button>
@@ -102,21 +102,21 @@ function HomePage() {
             <button type="button"><Link href="/views/buzon">Ver mas</Link></button>
         </div>
         <div className="buzon">
-            <img src="/assets/Buzon 1.png"width={201}height={247}alt=""/>
+            <img src="/assets/Buzon 1.png"/>
         </div>
     </div>
 
     <div className="codigos">
         <div className="conducta">
-            <img src="/assets/1.png"width={350}height={200} alt="cond"/>
+            <img src="/assets/1.png"/>
             <a href="/docs/inicio/Codigo-de-Conducta-UJED.pdf" download={'Codigo-de-Conducta-UJED.pdf'}>Código de Conducta</a>
         </div>
         <div className=" etica">
-            <img src="/assets/2.png"width={350}height={200} alt="et"/>
+            <img src="/assets/2.png"/>
             <a href="/inicio/Codigo-de-Etica-UJED.pdf" download={"Codigo-de-Etica-UJED.pdf"}>Código de Ética</a>
         </div>
         <div className="lineamientos">
-            <img src="/assets/3.png"width={350}height={200} alt="lin"/>
+            <img src="/assets/3.png"/>
             <a href="/docs/inicio/Politicas-y-lineamientos-de-E-R.pdf" download={'Politicas-y-lineamientos-de-E-R.pdf'}>Políticas y lineamientos</a>
             <a href="/docs/inicio/reglamento-E-R-AprobadoUJED.pdf" download={'reglamento-E-R-AprobadoUJED.pdf'}>Entrega Recepción</a>
         </div>
