@@ -24,7 +24,7 @@ const handler = NextAuth({
 
                 if(!passwordMatch) throw new Error("Credenciales Invalidas");
 
-                return userFound;
+                return userFound
             },
         }),
     ],

@@ -3,6 +3,39 @@ import User from "@/models/user";
 import { connectDB } from "@/libs/mongodb";
 import bcrypt from 'bcryptjs';
 
+function asignarRol(adscripcion: string): string {
+    switch(adscripcion){
+        case "ads1":
+            return "rectoria";
+        case  "ads2":
+            return "sec-gral";
+        case  "ads3":
+            return "sub-sec-aca";
+        case "ads4":
+            return "sub-sec-admin";
+        case 'ads5':
+            return "rectoria";
+        case "ads6":
+            return "rectoria";
+        case "ads7":
+            return "abogado";
+        case "ads9":
+            return "contraloria"
+        case "ads10":
+            return "difusion";
+        case "ads11":
+            return "fcfa";
+        case "ads12":
+            return "fts";
+        case "ads13":
+            return "fcq";
+        case  "ads14":
+            return "bellasartes";
+        default:
+            return "Usuario"
+    }
+}
+
 export async function POST(request: Request) {
 
     const {nombre, correoElectronico, contrasena, apellidoPaterno, apellidoMaterno, matricula, area, adscripcion} = await request.json()
@@ -27,6 +60,8 @@ export async function POST(request: Request) {
     }
     );
 
+    const rolAsignado = asignarRol(adscripcion);
+
     const hashedPassword = await bcrypt.hash(contrasena, 12)
 
     const user = new User({
@@ -37,7 +72,8 @@ export async function POST(request: Request) {
         area,
         adscripcion,
         correoElectronico,
-        contrasena: hashedPassword
+        contrasena: hashedPassword,
+        rol:rolAsignado
     })
     const savedUser = await user.save()
     console.log(savedUser)
@@ -48,6 +84,8 @@ export async function POST(request: Request) {
         apellidoPaterno: savedUser.apellidoPaterno,
         apellidoMaterno: savedUser.apellidoMaterno,
         correoElectronico: savedUser.correoElectronico,
+        rol: savedUser.rol,
+        mensaje:"Se ha registrado correctamente",
     });
 
     } catch (error) {

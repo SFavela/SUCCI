@@ -6,12 +6,13 @@ import '@/app/globals.css'
 import styles from "../styles/dashboard.module.css"
 import Link from "next/link";
 
-function DashboardPage() {
 
+function DashboardPage() {
 
     const { data: session, status } = useSession();
 
     console.log(session, status);
+
 
     return (
         <body>
