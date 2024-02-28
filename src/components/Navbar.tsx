@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import '../app/styles/navbar.css'
 import SideBar from "./sidemenu"

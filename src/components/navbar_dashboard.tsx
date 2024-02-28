@@ -1,4 +1,4 @@
-"use Client"
+"use client"
 
 import Image from "next/image"
 import "../app/styles/navbar_dash.css"
