@@ -73,7 +73,7 @@ export async function POST(request: Request) {
         adscripcion,
         correoElectronico,
         contrasena: hashedPassword,
-        rol:rolAsignado
+        role:rolAsignado
     })
     const savedUser = await user.save()
     console.log(savedUser)
@@ -84,7 +84,7 @@ export async function POST(request: Request) {
         apellidoPaterno: savedUser.apellidoPaterno,
         apellidoMaterno: savedUser.apellidoMaterno,
         correoElectronico: savedUser.correoElectronico,
-        rol: savedUser.rol,
+        role: savedUser.rol,
         mensaje:"Se ha registrado correctamente",
     });
 

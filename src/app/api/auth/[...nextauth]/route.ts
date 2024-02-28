@@ -30,11 +30,11 @@ const handler = NextAuth({
     ],
     callbacks:{
         jwt({token,user}){
-            if (user) token.user = user;
+            if (user) token.role = user.role;
             return token;
         },
         session({session,token}){
-            session.user = token.user as any;
+            if(session?.user) session.user.role = token.role;
             return session;
         }
     },
