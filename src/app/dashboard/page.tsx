@@ -1,24 +1,24 @@
 "use client"
 
-import { useSession } from "next-auth/react"
+
 import Navbar_dashboard from "@/components/navbar_dashboard";
 import '@/app/globals.css'
 import styles from "../styles/dashboard.module.css"
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 
 
 function DashboardPage() {
 
-    const { data: session, status } = useSession();
+    const {data: session, status} = useSession();
 
     console.log(session, status);
-
 
     return (
         <body>
             <Navbar_dashboard/>
             <div className={styles.container}>
-                <Link href={"/dashboard/rectoria"}>
+                <Link href={"/rectoria"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -30,7 +30,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/sec-gral"}>
+                <Link href={"/sec-gral"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -42,7 +42,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/subsecaca"}>
+                <Link href={"/subsecaca"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -54,7 +54,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/subsecadmin"}>
+                <Link href={"/subsecadmin"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -66,7 +66,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/contra-gral"}>
+                <Link href={"/contra-gral"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -78,7 +78,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/tesoreria"}>
+                <Link href={"/tesoreria"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -90,7 +90,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/abogado"}>
+                <Link href={"/abogado"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -102,7 +102,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/difusion"}>
+                <Link href={"/difusion"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -114,7 +114,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/fcfa"}>
+                <Link href={"/fcfa"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -126,7 +126,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/fcq"}>
+                <Link href={"/fcq"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -138,7 +138,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/fts"}>
+                <Link href={"/fts"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
@@ -150,7 +150,7 @@ function DashboardPage() {
                     </div>
                 </div>
                 </Link>
-                <Link href={"/dashboard/bellasartes"}>
+                <Link href={"/bellasartes"}>
                 <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                     <div className="z-10 absolute w-full h-full peer"></div>
                     <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-red-800 transition-all duration-500"></div>
