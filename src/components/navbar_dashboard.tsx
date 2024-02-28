@@ -1,3 +1,5 @@
+"use Client"
+
 import Image from "next/image"
 import "../app/styles/navbar_dash.css"
 import Link from "next/link";
