@@ -6,7 +6,7 @@ import "./sec-gral.css"
 import { useSession } from "next-auth/react"
 
 
-function page() {
+function SecretariaGeneralPage() {
     const {data: session, status} = useSession(); 
     console.log(session, status);
 
@@ -102,4 +102,4 @@ function page() {
 )
 }
 
-export default page
+export default SecretariaGeneralPage

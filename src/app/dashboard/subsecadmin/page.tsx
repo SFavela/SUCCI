@@ -6,7 +6,7 @@ import "./sub-sec-admin.css"
 import { useSession } from "next-auth/react"
 
 
-function page() {
+function SubSecAdminPage() {
     const {data: session, status} = useSession();
     console.log(session, status);
 
@@ -127,4 +127,4 @@ function page() {
   )
 }
 
-export default page
+export default SubSecAdminPage

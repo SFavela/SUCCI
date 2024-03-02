@@ -2,7 +2,7 @@ import Navbar_dashboard from "@/components/navbar_dashboard"
 import "../../globals.css"
 import "./rectoria.css"
 
-function page() {
+function RectoriaPage() {
   return (
     <body>
         <Navbar_dashboard/>
@@ -40,4 +40,4 @@ function page() {
   )
 }
 
-export default page
+export default RectoriaPage
