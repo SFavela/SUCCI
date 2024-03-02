@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import Navbar_dashboard from "@/components/navbar_dashboard";
 import '@/app/globals.css'

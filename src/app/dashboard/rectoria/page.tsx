@@ -1,5 +1,3 @@
-"use client"
-
 import Navbar_dashboard from "@/components/navbar_dashboard"
 import "../../globals.css"
 import "./rectoria.css"

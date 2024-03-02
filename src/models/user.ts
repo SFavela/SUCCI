@@ -43,6 +43,11 @@ const userSchema = new Schema ({
         enum: ['rectoria', 'sec-gral', 'sub-sec-aca','sub-sec-admin', 'abogado', 'bellasartes', 'contraloria', 'difusion', 'fcfa', 'fcq', 'fts', 'tesoreria'],
         default: 'Usuario'
     },
+    subrole:{
+        type: String,
+        enum: ['DDGRH','CO','CC','CRP','CCM','CSG','CPCV','CGA','DDC','EUJED','LUJED','MRUJED','RUJED','TVUJED','CDDU','DVI','DTD','DCN','DSE','DGB','FCFA','FTS','FCQ','BA'],
+        default: 'Usuario'
+    },
 });
 
 const User = models.User || model( 'User', userSchema );

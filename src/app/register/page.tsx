@@ -11,7 +11,7 @@ import logo from "@/app/img/logo-login.png"
 import "../styles/register.css"
 import { faBuilding, faEnvelope, faKey, faUser } from "@fortawesome/free-solid-svg-icons"
 
-function RegisterPage() {
+function RegisterPage() { 
 
     const [error, setError] = useState();
     const router = useRouter()

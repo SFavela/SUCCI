@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 import User from "@/models/user";
 import { connectDB } from "@/libs/mongodb";
-import bcrypt from 'bcryptjs';
+import bcrypt from "bcryptjs";
 
-function asignarRol(adscripcion: string): string {
+function asignarRol(adscripcion: string): string{
     switch(adscripcion){
         case "ads1":
             return "rectoria";
@@ -13,7 +13,7 @@ function asignarRol(adscripcion: string): string {
             return "sub-sec-aca";
         case "ads4":
             return "sub-sec-admin";
-        case 'ads5':
+        case "ads5":
             return "rectoria";
         case "ads6":
             return "rectoria";
@@ -31,6 +31,61 @@ function asignarRol(adscripcion: string): string {
             return "fcq";
         case  "ads14":
             return "bellasartes";
+        default:
+            return "Usuario"
+    }
+}
+
+function asignarsubRol(area: string): string{
+    switch(area){
+        case "area1":
+            return "DDGRH";
+        case "area2":
+            return "CO";
+        case "area3":
+            return "CC";
+        case "area4":
+            return "CRP";
+        case "area5":
+            return "CCM";
+        case "area6":
+            return "CSG";
+        case "area7":
+            return "CPCV";
+        case "area8":
+            return "CGA";
+        case "area9":
+            return "DDC";
+        case "area10":
+            return "EUJED";
+        case "area11":
+            return "LUJED";
+        case "area12":
+            return "MRUJED";
+        case "area13":
+            return "RUJED";
+        case "area14":
+            return "TVUJED";
+        case "area15":
+            return "CDDU";
+        case "area16":
+            return "DVI";
+        case "area17": 
+            return "DTD";
+        case "area18":
+            return "DCN";
+        case "area19":
+            return "DSE";
+        case "area20":
+            return "DGB";
+        case "area21":
+            return "FCFA";
+        case "area22":
+            return "FTS";
+        case "area23":
+            return "FCQ";
+        case "area24":
+            return "BA"
         default:
             return "Usuario"
     }
@@ -61,6 +116,7 @@ export async function POST(request: Request) {
     );
 
     const rolAsignado = asignarRol(adscripcion);
+    const subrolAsignado = asignarsubRol (area);
 
     const hashedPassword = await bcrypt.hash(contrasena, 12)
 
@@ -73,7 +129,8 @@ export async function POST(request: Request) {
         adscripcion,
         correoElectronico,
         contrasena: hashedPassword,
-        role:rolAsignado
+        role:rolAsignado,
+        subrole: subrolAsignado,
     })
     const savedUser = await user.save()
     console.log(savedUser)
@@ -84,7 +141,8 @@ export async function POST(request: Request) {
         apellidoPaterno: savedUser.apellidoPaterno,
         apellidoMaterno: savedUser.apellidoMaterno,
         correoElectronico: savedUser.correoElectronico,
-        role: savedUser.rol,
+        role: savedUser.role,
+        subrole: savedUser.subrole,
         mensaje:"Se ha registrado correctamente",
     });
 
