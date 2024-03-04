@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+}
+
+.formulario-buzon{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.input{
+    border: 2px solid #B11830;
+    border-radius: 10px;
+}
+
+.tipo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn button {
+    background-color: #fef3f3;
+    color: #970018;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+}
+
+.btn button:hover {
+    background-color: #970018;
+    box-shadow: 0 0 0 5px #97001982;
+    color: #fff;
+}
