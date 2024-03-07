@@ -17,11 +17,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Dirección de Desarrollo y Gestión de Recursos Humanos</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/direccion-rrhh/MANUAL DE ORGANIZACION DIRECCION DE DESARROLLO Y GESTION DE RECURSOS HUMANOS.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1iNJbMp-o5Kej3600tFmTNGbIRjn8SM0s/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>
                         </div>
                     </div>
                 );
@@ -30,11 +30,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Obras</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/obras/MANUAL DE ORGANIZACIÓN DE COORDINACION DE OBRAS.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1O00GZO9TDmrophvvMDKnSmGhderqPlSC/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>
                         </div>
                     </div>
                 );
@@ -43,11 +43,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Compras</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/compras/MANUAL DE ORGANIZACION COORDINACION DE COMPRAS.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1x7YtZflbQBvjv03yullLoY7mhDS3n6xl/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>
                         </div>
                     </div>
                 );
@@ -56,11 +56,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Relaciones Públicas</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/relaciones-publicas/MANUAL DE ORGANIZACION DIRECCION DE RELACIONES PÚBLICAS.docm" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>            
+                            <p className="card__description"><a href="https://drive.google.com/file/d/1wP6IsyxQSRO32NSxScQ0kKrpkgfguC7j/view?usp=drive_link">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>            
                         </div>
                     </div>
                 );
@@ -69,11 +69,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Correspondencia y Mensajería</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/correspondencia/MANUAL DE ORGANIZACION DE LA COORDINACION DE CORRESPONDENCIA Y MENSAJERIA 25112022 REVISADO Y CORREGIDO.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>            
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1PXVsONUq2bUJ6dDNleWRoNYvidUs1iKf/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>            
                         </div>
                     </div>
                 );
@@ -82,11 +82,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Servicios Generales</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/servicios-generales/MANUAL DE ORGANIZACION  COORDINACION DE SERVICIOS GENERALES.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="./" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>            
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1gNOMtxtH5qB_iVtoiORWm3-jUH2fRdZ8/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="./">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>            
                         </div>
                     </div>
                 );
@@ -95,11 +95,11 @@ function SubSecAdminPage() {
                     <div className="card">
                         <p className="card__title">Coordinación de Patrimonio y Control Vehicular</p>
                         <div className="card__content">
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/patrimonio/MANUAL DE ORGANIZACION DE COORDINACION DE PATRIMONIO Y CONTROL VEHICULAR.docx" download>Manual de Organización</a></p>
-                            <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/patrimonio/MANUAL DE PROCEDIMIENTOS COORDINACION DE PATRIMONIO Y CONTROL VEHICULAR.docx" download>Manual de Procedimientos</a></p>
-                            <p className="card__description"><a href="./" download>FODA</a></p>
-                            <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                            <p className="card__description"><a href="./" download>Otros</a></p>            
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1XIK6DZEUsCoG8-XLmyhoLnuv2-m3BdMS/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                            <p className="card__description"><a href="https://docs.google.com/document/d/1olnlHNtchqkbfTvGZCvtpylOWk_TW9EA/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Procedimientos</a></p>
+                            <p className="card__description"><a href="./">FODA</a></p>
+                            <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                            <p className="card__description"><a href="./">Otros</a></p>            
                         </div>
                     </div>
                 );
@@ -114,11 +114,11 @@ function SubSecAdminPage() {
         <div className="card">
             <p className="card__title">Subsecretaría General Administrativa</p>
             <div className="card__content">
-                <p className="card__description"><a href="./" download>Manual de Organización</a></p>
-                <p className="card__description"><a href="../../docs/loggin/sub-sec-gral-adm/sub-gral-adm/MANUAL DE PROCEDIMIENTOS Subsecretaria General Administrativa (CO, CC, CCM, CRP, CSG).docx" download>Manual de Procedimientos</a></p>
-                <p className="card__description"><a href="./" download>FODA</a></p>
-                <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
-                <p className="card__description"><a href="./" download>Otros</a></p>
+                <p className="card__description"><a href="./">Manual de Organización</a></p>
+                <p className="card__description"><a href="https://docs.google.com/document/d/11RBvDruRwZ_TiO9U5RjZUSzlgbCXoAo_/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Procedimientos</a></p>
+                <p className="card__description"><a href="./">FODA</a></p>
+                <p className="card__description"><a href="./">Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
+                <p className="card__description"><a href="./">Otros</a></p>
             </div>
         </div>
         {renderCards()}

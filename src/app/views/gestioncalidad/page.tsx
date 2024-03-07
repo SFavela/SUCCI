@@ -35,50 +35,50 @@ function page() {
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-solicitar-e-integrar-la-informacion-de-entrada-para-la-reunion-de-revision-por-la-direccion.pdf" download>Lineamientos para Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</a></p>
+                    <p><a href="https://drive.google.com/file/d/1jkaelBp08pxUoDtr-IQhzbNEv769uVwX/view?usp=drive_link">Lineamientos para Solicitar e Integrar Información de Entrada para la Revisión por la Dirección</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Lineamientos-para-la-operacion-de-la-alta-direccion-y-comite-de-calidad-autoridad-y-responsabilidad-del-SGC.pdf" download>Lineamientos para la Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</a></p>
+                    <p><a href="https://drive.google.com/file/d/1KOPcxnOOZ2tYnUMuKvM9yMk_Uwx1aeXB/view?usp=drive_link">Lineamientos para la Operación de la Alta Dirección y Comité de Calidad, Autoridad y Responsabilidad del SGC</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Elaboración de Documentos</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Elaboracion-de-Documentos.pdf" download>P.7.5.2 Procedimiento de Elaboración de Documentos</a></p>
+                    <p><a href="https://drive.google.com/file/d/10TeYHMCFk1h85c22vnvAipOB4MEA6K7X/view?usp=drive_link">P.7.5.2 Procedimiento de Elaboración de Documentos</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Control de Información Documentada</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_documentos.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Documentos</a></p>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Control-de-Informacion-Documentada_registros.pdf" download>P.7.5.3 Procedimiento de Control de Información Documentada Registros</a></p>
+                    <p><a href="https://drive.google.com/file/d/1jLC2rL2KVBTV0ZVSn2_s6n8XkK9dQOls/view?usp=drive_link">P.7.5.3 Procedimiento de Control de Información Documentada Documentos</a></p>
+                    <p><a href="https://drive.google.com/file/d/1reBwXhlzMzAbt2Re9rNdIIgvs47OXGOf/view?usp=drive_link">P.7.5.3 Procedimiento de Control de Información Documentada Registros</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Salidas No Conformes</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Salidas-no-conformes.pdf" download>P8.7 Procedimiento de Salidas No Conformes</a></p>
+                    <p><a href="https://drive.google.com/file/d/13HWMIaiptWoLhnJomHeXE5bXbgN7aG8K/view?usp=drive_link">P8.7 Procedimiento de Salidas No Conformes</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Auditorías Internas</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Auditorias-Internas.pdf" download>P9.2 Procedimiento de Auditorias Internas </a></p>
+                    <p><a href="https://drive.google.com/file/d/1RtXW_nqGhQQ3v0QxcgczHZtzWM9ndOeh/view?usp=drive_link">P9.2 Procedimiento de Auditorias Internas </a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Revisión por la Dirección</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Procedimiento-de-Revision-por-la-Direccion.pdf" download>P9.3 Procedimiento de Revisión por la Dirección</a></p>
+                    <p><a href="https://drive.google.com/file/d/1t4N8LJzf6ibBu8x8jgEmXldJtJNJfrkE/view?usp=drive_link">P9.3 Procedimiento de Revisión por la Dirección</a></p>
                 </li>
                 <li>
                     <input type="checkbox" checked/>
                     <i className="arrow"></i>
                     <h2>Acciones Correctivas</h2>
-                    <p><a href="/docs/gestioncalidad/procedimientosdocumentados/Acciones-Correctivas.pdf" download>P10.2 Procedimiento de Acciones Correctivas </a></p>
+                    <p><a href="https://drive.google.com/file/d/1EMP0EUw75nO4AruPZY1VRkIpXERbpBzK/view?usp=drive_link">P10.2 Procedimiento de Acciones Correctivas </a></p>
                 </li>
             </ul>
         </div>

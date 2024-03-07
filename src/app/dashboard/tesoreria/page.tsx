@@ -13,8 +13,8 @@ function page() {
         <div className="card">
             <p className="card__title">Tesorería General</p>
             <div className="card__content">
-                <p className="card__description"><a href="../../docs/loggin/tesoreria/tesoreria-gral/MANUAL DE ORGANIZACION TESORERIA GENERAL.docx" download>Manual de Organización</a></p>
-                <p className="card__description"><a href="../../docs/loggin/tesoreria/tesoreria-gral/MANUAL DE PROCEDIMIENTOS TESORERIA GENERAL.docx" download>Manual de Procedimientos</a></p>
+                <p className="card__description"><a href="https://docs.google.com/document/d/1zhYyW2wQThUCmn81BEC_bUzYat7RPUAC/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                <p className="card__description"><a href="https://docs.google.com/document/d/1ZTv8wBMW-zPRD0BrP2mmpWX0sCYyI30L/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Procedimientos</a></p>
                 <p className="card__description"><a href="./" download>FODA</a></p>
                 <p className="card__description"><a href="./" download>Matriz de Necesidades y Expectativas de las Partes Interesadas</a></p>
                 <p className="card__description"><a href="./" download>Otros</a></p>

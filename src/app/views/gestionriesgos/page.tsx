@@ -42,11 +42,11 @@ function page() {
   <div className="matrices">
     <div className="item">
       <img src="/assets/"/>
-      <h1><a href="/docs/gestionriesgos/AN無ISIS FODA RECTORIA 2021.pdf" download>FODA</a></h1>
+      <h1><a href="https://drive.google.com/file/d/1GvVdksfo3oTd154MsIwnNJoJnLj5xZpT/view?usp=drive_link">FODA</a></h1>
     </div>
     <div className="item">
       <img src="/assets/"/>
-      <h1><a href="/docs/gestionriesgos/MATRIZ DE NECESIDADES Y EXPECTATIVAS DE LAS PARTES INTERESADAS INSTITUCIONAL.pdf" download>MNEPII</a></h1>
+      <h1><a href="https://drive.google.com/file/d/1EYuIfMksRKVkvkHA6oS0jN2z_AbmnkvB/view?usp=drive_link">MNEPII</a></h1>
     </div>
     <div className="item">
       <img src="/assets/"/>

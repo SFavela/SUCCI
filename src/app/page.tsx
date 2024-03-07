@@ -109,16 +109,16 @@ function HomePage() {
     <div className="codigos">
         <div className="conducta">
             <img src="/assets/1.png"/>
-            <a href="/docs/inicio/Codigo-de-Conducta-UJED.pdf" download={'Codigo-de-Conducta-UJED.pdf'}>Código de Conducta</a>
+            <a href="https://drive.google.com/file/d/17A05Id1CN8s71KhEfwF8mren6LOMU5ks/view?usp=drive_link">Código de Conducta</a>
         </div>
         <div className=" etica">
             <img src="/assets/2.png"/>
-            <a href="/inicio/Codigo-de-Etica-UJED.pdf" download={"Codigo-de-Etica-UJED.pdf"}>Código de Ética</a>
+            <a href="https://drive.google.com/file/d/1eigZkcdQiOlgVw36wPH30dBDv_thlPC5/view?usp=drive_link">Código de Ética</a>
         </div>
         <div className="lineamientos">
             <img src="/assets/3.png"/>
-            <a href="/docs/inicio/Politicas-y-lineamientos-de-E-R.pdf" download={'Politicas-y-lineamientos-de-E-R.pdf'}>Políticas y lineamientos</a>
-            <a href="/docs/inicio/reglamento-E-R-AprobadoUJED.pdf" download={'reglamento-E-R-AprobadoUJED.pdf'}>Entrega Recepción</a>
+            <a href="/https://drive.google.com/file/d/10EHomzU8HWdPcWg9CP6sqyx5XVWTbu94/view?usp=drive_link">Políticas y lineamientos</a>
+            <a href="https://drive.google.com/file/d/1h7fquuMK1kFE50f9zh-Bx3aCEjH3jDpa/view?usp=drive_link">Entrega Recepción</a>
         </div>
     </div>
       </div>
