@@ -3,8 +3,8 @@ import nodemailer, { Transporter } from 'nodemailer';
 const transporter: Transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'tu_correo@gmail.com',
-        pass: 'tu_contraseña',
+        user: 'encuestasybuzon@ujed.mx',
+        pass: 'UJED2024/',
     },
     tls: {
         rejectUnauthorized: false
@@ -23,8 +23,8 @@ interface FormData {
 
 const enviarCorreo = async (formData: FormData) => {
     const mailOptions = {
-        from: 'tu_correo@gmail.com',
-        to: 'correo_administrador@example.com',
+        from: 'encuestasybuzon@ujed.mx',
+        to: 'encuestasybuzon@ujed.mx',
         subject: 'Nueva queja o sugerencia recibida',
         html: `
         <p>Nombre completo: ${formData.nombreCompleto}</p>

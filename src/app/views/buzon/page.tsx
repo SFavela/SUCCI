@@ -5,6 +5,7 @@ import "../../globals.css"
 import '../../styles/buzon.css'
 import React, { useState } from 'react';
 import axios from 'axios';
+import enviarCorreo from '@/utils/enviarCorreo';
 
 function BuzonPage() {
   const [formData, setFormData] = useState({
@@ -39,6 +40,7 @@ function BuzonPage() {
     e.preventDefault();
     try {
       await axios.post('/api/sendMail', { formData });
+      await enviarCorreo(formData); // Llamamos a la función enviarCorreo después de enviar los datos del formulario
       alert('¡Gracias por tu comentario! Se ha enviado correctamente.');
       // Reiniciar el estado del formulario después de enviarlo
       setFormData({
@@ -55,6 +57,7 @@ function BuzonPage() {
       alert('Ocurrió un error. Por favor, inténtalo de nuevo más tarde.');
     }
   };
+
 
   return (
     <div>
