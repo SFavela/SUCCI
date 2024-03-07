@@ -5,7 +5,7 @@ import "../../globals.css"
 import '../../styles/buzon.css'
 import React, { useState, ChangeEvent } from 'react'
 
-function page() {
+function Buzonpage() {
   const [formData, setFormData] = useState({
     nombreCompleto: '',
     telefono: '',
@@ -93,4 +93,4 @@ function page() {
   )
 }
 
-export default page
+export default Buzonpage
