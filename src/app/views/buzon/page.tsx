@@ -37,14 +37,34 @@ function Buzonpage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      console.log('Datos enviados:', formData);
-      // Aquí enviarías los datos del formulario al servidor para su procesamiento
-      alert('¡Gracias por tu comentario!');
+      const response = await fetch('https://formspree.io/f/xjvnorok', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert('Gracias por tu comentario, nos contactaremos contigo');
+        console.log('Formulario enviado con éxito');
+        //se limpia el formulario
+        setFormData({
+          nombreCompleto: '',
+          telefono: '',
+          correoElectronico: '',
+          facultad: '',
+          tipo: '',
+          comentario: '',
+          contacto: []
+        });
+      } else {
+        console.error('Error al enviar el formulario');
+      }
     } catch (error) {
-      console.error('Error al enviar los datos:', error);
-      alert('Ocurrió un error. Por favor, inténtalo de nuevo más tarde.');
+      console.error('Error al enviar el formulario:', error);
     }
-  };
+  }
 
   return (
     <div>
@@ -52,42 +72,42 @@ function Buzonpage() {
       <div className='container'>
         <h1>Buzón de Quejas y Sugerencias</h1>
         <form className='formulario-buzon' onSubmit={handleSubmit}>
-      <label>Nombre completo:</label>
-      <input className='input' type='text' name='nombreCompleto' value={formData.nombreCompleto} onChange={handleChange} required/>
+          <label>Nombre completo:</label>
+          <input className='input' type='text' name='nombreCompleto' value={formData.nombreCompleto} onChange={handleChange} required/>
 
-      <label>Teléfono:</label>
-      <input className='input' type='tel' name='telefono' value={formData.telefono} onChange={handleChange} required/>
+          <label>Teléfono:</label>
+          <input className='input' type='tel' name='telefono' value={formData.telefono} onChange={handleChange} required/>
 
-      <label>Correo electrónico:</label>
-      <input className='input' type='email' name='correoElectronico' value={formData.correoElectronico} onChange={handleChange} required/>
+          <label>Correo electrónico:</label>
+          <input className='input' type='email' name='correoElectronico' value={formData.correoElectronico} onChange={handleChange} required/>
 
-      <label>Facultad, Escuela, Departamento, Área:</label>
-      <select className='input' name='facultad' value={formData.facultad} onChange={handleChange} required>
-        <option value="">Seleccione...</option>
-        <option value="facultad">Facultad</option>
-        <option value="escuela">Escuela</option>
-        <option value="departamento">Departamento</option>
-        <option value="area">Área</option>
-      </select>
+          <label>Facultad, Escuela, Departamento, Área:</label>
+          <select className='input' name='facultad' value={formData.facultad} onChange={handleChange} required>
+            <option value="">Seleccione...</option>
+            <option value="facultad">Facultad</option>
+            <option value="escuela">Escuela</option>
+            <option value="departamento">Departamento</option>
+            <option value="area">Área</option>
+          </select>
 
-      <div className='tipo'>
-        <label>Tipo:</label>
-        <input type='radio' name='tipo' value='sugerencia' onChange={handleChange} required/>Sugerencia
-        <input type='radio' name='tipo' value='mejora' onChange={handleChange} required/>Mejora
-        <input type='radio' name='tipo' value='comentario' onChange={handleChange} required/>Comentario
-      </div>
+          <div className='tipo'>
+            <label>Tipo:</label>
+            <input type='radio' name='tipo' value='sugerencia' onChange={handleChange} required/>Sugerencia
+            <input type='radio' name='tipo' value='mejora' onChange={handleChange} required/>Mejora
+            <input type='radio' name='tipo' value='comentario' onChange={handleChange} required/>Comentario
+          </div>
 
-      <label>Comentario:</label>
-      <textarea className='input' name='comentario' value={formData.comentario} onChange={handleChange} required></textarea>
+          <label>Comentario:</label>
+          <textarea className='input' name='comentario' value={formData.comentario} onChange={handleChange} required></textarea>
 
-      <div className='contacto'>
-        <label>¿Cómo deseas ser contactado?:</label>
-        <input type='checkbox' name='contacto' value='telefono' onChange={handleChange}/>Teléfono
-        <input type='checkbox' name='contacto' value='correoElectronico' onChange={handleChange}/>Correo electrónico
-      </div>
+          <div className='contacto'>
+            <label>¿Cómo deseas ser contactado?:</label>
+            <input type='checkbox' name='contacto' value='telefono' onChange={handleChange}/>Teléfono
+            <input type='checkbox' name='contacto' value='correoElectronico' onChange={handleChange}/>Correo electrónico
+          </div>
 
-      <button className='btn'>Enviar</button>
-    </form>
+          <button className='btn'>Enviar</button>
+        </form>
       </div>
     </div>
   )
