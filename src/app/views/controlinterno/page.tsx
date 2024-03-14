@@ -185,19 +185,19 @@ function page() {
         <div className="coco-2">
             <div className="coco-item">
                 <img src="/assets/Estructura.png"/>
-                <h1><a href="https://drive.google.com/file/d/1-FR3g2CjFKLbeEqFk1uJPFqvJHlVx3po/view?usp=drive_link" >Estructura</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1-FR3g2CjFKLbeEqFk1uJPFqvJHlVx3po/view?usp=drive_sharing" >Estructura</a></h1>
             </div>
             <div className="coco-item">
                 <img src="/assets/Directorio.png"/>
-                <h1><a href="https://drive.google.com/file/d/1aMImzungw8_YtzZNS1a9Yw-h2Pqkg3Qf/view?usp=drive_link" >Directorio</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1aMImzungw8_YtzZNS1a9Yw-h2Pqkg3Qf/view?usp=drive_sharing" >Directorio</a></h1>
             </div>
             <div className="coco-item">
                 <img src="/assets/Lineamientos.png"/>
-                <h1><a href="https://drive.google.com/file/d/1vLdLbZjnTojdlchHpX7zb7kfs-qFd7u_/view?usp=drive_link" >Lineamientos</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1vLdLbZjnTojdlchHpX7zb7kfs-qFd7u_/view?usp=drive_sharing" >Lineamientos</a></h1>
             </div>
             <div className="coco-item">
                 <img src="/assets/Programa anual de trabajo.png"/>
-                <h1><a href="https://drive.google.com/file/d/15-t39QManasPSW2akrm1wsd4JtWEtTRg/view?usp=drive_link" >Programa anual de trabajo</a></h1>
+                <h1><a href="https://drive.google.com/file/d/15-t39QManasPSW2akrm1wsd4JtWEtTRg/view?usp=drive_sharing" >Programa anual de trabajo</a></h1>
             </div>
             <div className="coco-item">
                 <img src="/assets/Sesiones.png"/>
@@ -217,19 +217,19 @@ function page() {
         <div className="car-2">
             <div className="car-item">
                 <img src="/assets/Estructura.png"/>
-                <h1><a href="https://drive.google.com/file/d/1WruQVxnNidvwyqG5p4TNwD9eq2s_zFY1/view?usp=drive_link">Estructura</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1WruQVxnNidvwyqG5p4TNwD9eq2s_zFY1/view?usp=drive_sharing">Estructura</a></h1>
             </div>
             <div className="car-item">
                 <img src="/assets/Directorio.png"/>
-                <h1><a href="https://drive.google.com/file/d/1gsAJWbfR5HRg6SwFRrefFIN80ZlnAUqS/view?usp=drive_link">Directorio</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1gsAJWbfR5HRg6SwFRrefFIN80ZlnAUqS/view?usp=drive_sharing">Directorio</a></h1>
             </div>
             <div className="car-item">
                 <img src="/assets/Lineamientos.png"/>
-                <h1><a href="https://drive.google.com/file/d/1e3QCwjhwNnMHOV6h3OBn_m7jMTIiujcx/view?usp=drive_link">Lineamientos</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1e3QCwjhwNnMHOV6h3OBn_m7jMTIiujcx/view?usp=drive_sharing">Lineamientos</a></h1>
             </div>
             <div className="car-item">
                 <img src="/assets/Programa anual de trabajo.png"/>
-                <h1><a href="https://drive.google.com/file/d/1wPgrJZNnIb_uQOA48F9ay69nxsECe8oY/view?usp=drive_link" >Programa anual de trabajo</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1wPgrJZNnIb_uQOA48F9ay69nxsECe8oY/view?usp=drive_sharing" >Programa anual de trabajo</a></h1>
             </div>
             <div className="car-item">
                 <img src="/assets/Sesiones.png"/>
@@ -249,19 +249,19 @@ function page() {
         <div className="cei-2">
             <div className="cei-item">
                 <img src="/assets/Estructura.png"/>
-                <h1><a href="https://drive.google.com/file/d/1hw5xRKo-vweHNRcwZhInaWjvDKe9Ubje/view?usp=drive_link" >Estructura</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1hw5xRKo-vweHNRcwZhInaWjvDKe9Ubje/view?usp=drive_sharing" >Estructura</a></h1>
             </div>
             <div className="cei-item">
                 <img src="/assets/Directorio.png"/>
-                <h1><a href="https://drive.google.com/file/d/1X4OjNkVgMZ3LtUDvrfxpaP8I2fXi2Hrh/view?usp=drive_link" >Directorio</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1X4OjNkVgMZ3LtUDvrfxpaP8I2fXi2Hrh/view?usp=drive_sharing" >Directorio</a></h1>
             </div>
             <div className="cei-item">
                 <img src="/assets/Lineamientos.png"/>
-                <h1><a href="https://drive.google.com/file/d/1PNsafb7tsYTUjgLYN3kIZKR6qrTlPWXk/view?usp=drive_link" >Lineamientos</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1PNsafb7tsYTUjgLYN3kIZKR6qrTlPWXk/view?usp=drive_sharing" >Lineamientos</a></h1>
             </div>
             <div className="cei-item">
                 <img src="/assets/Programa anual de trabajo.png"/>
-                <h1><a href="https://drive.google.com/file/d/1W43GovFKCJisKLbZrb4a8EuAehcuGRe_/view?usp=drive_link" >Programa anual de trabajo</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1W43GovFKCJisKLbZrb4a8EuAehcuGRe_/view?usp=drive_sharing" >Programa anual de trabajo</a></h1>
             </div>
             <div className="cei-item">
                 <img src="/assets/Sesiones.png"/>
@@ -281,19 +281,19 @@ function page() {
         <div className="cti-2">
             <div className="cti-item">
                 <img src="/assets/Estructura.png"/>
-                <h1><a href="https://drive.google.com/file/d/1srtD8LFRCSNykYG5aeuREEF0AU0L5OxT/view?usp=drive_link" >Estructura</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1srtD8LFRCSNykYG5aeuREEF0AU0L5OxT/view?usp=drive_sharing" >Estructura</a></h1>
             </div>
             <div className="cti-item">
                 <img src="/assets/Directorio.png"/>
-                <h1><a href="https://drive.google.com/file/d/1t0pGsQfqTkN9HO0nAqG5YJiEgWXNprbP/view?usp=drive_link" >Directorio</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1t0pGsQfqTkN9HO0nAqG5YJiEgWXNprbP/view?usp=drive_sharing" >Directorio</a></h1>
             </div>
             <div className="cti-item">
                 <img src="/assets/Lineamientos.png"/>
-                <h1><a href="https://drive.google.com/file/d/1vZkYTF856iOUOT0EjrO51et8pd82Gf5K/view?usp=drive_link" >Lineamientos</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1vZkYTF856iOUOT0EjrO51et8pd82Gf5K/view?usp=drive_sharing" >Lineamientos</a></h1>
             </div>
             <div className="cti-item">
                 <img src="/assets/Programa anual de trabajo.png"/>
-                <h1><a href="https://drive.google.com/file/d/1LI2TbZBaKA1H2ZHdYGnI9T-ff0rk0hxj/view?usp=drive_link" >Programa anual de trabajo</a></h1>
+                <h1><a href="https://drive.google.com/file/d/1LI2TbZBaKA1H2ZHdYGnI9T-ff0rk0hxj/view?usp=drive_sharing" >Programa anual de trabajo</a></h1>
             </div>
             <div className="cti-item">
                 <img src="/assets/Sesiones.png"/>

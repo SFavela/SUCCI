@@ -13,7 +13,7 @@ function page() {
         <div className="card">
             <p className="card__title">Instituto de Bellas Artes</p>
             <div className="card__content">
-                <p className="card__description"><a href="https://docs.google.com/document/d/1s3ZouCROdEp63bhClj13388WZMwCJFLE/edit?usp=drive_link&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
+                <p className="card__description"><a href="https://docs.google.com/document/d/1s3ZouCROdEp63bhClj13388WZMwCJFLE/edit?usp=drive_sharing&ouid=103218664228079207468&rtpof=true&sd=true">Manual de Organización</a></p>
         </div>
         </div>
 	</div>

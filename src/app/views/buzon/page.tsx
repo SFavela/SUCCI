@@ -83,11 +83,31 @@ function Buzonpage() {
 
           <label>Facultad, Escuela, Departamento, Área:</label>
           <select className='input' name='facultad' value={formData.facultad} onChange={handleChange} required>
-            <option value="">Seleccione...</option>
-            <option value="facultad">Facultad</option>
-            <option value="escuela">Escuela</option>
-            <option value="departamento">Departamento</option>
-            <option value="area">Área</option>
+            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Dirección de Desarrollo y Gestión de Recursos Humanos">Dirección de Desarrollo y Gestión de Recursos Humanos</option>
+                            <option value="Coordinación de Obras">Coordinación de Obras</option>
+                            <option value="Coordinación de Compras">Coordinación de Compras</option>
+                            <option value="Coordinación de Relaciones Públicas">Coordinación de Relaciones Públicas</option>
+                            <option value="Coordinación de Correspondencia y Mensajería">Coordinación de Correspondencia y Mensajería</option>
+                            <option value="Coordinación de Servicios Generales">Coordinación de Servicios Generales</option>
+                            <option value="Coordinación de Patrimonio y Control Vehicular">Coordinación de Patrimonio y Control Vehicular</option>
+                            <option value="Coordinación General de Archivo">Coordinación General de Archivo</option>
+                            <option value="Dirección de Difusión Cultural">Dirección de Difusión Cultural</option>
+                            <option value="Editorial UJED">Editorial UJED</option>
+                            <option value="Librería UJED">Librería UJED</option>
+                            <option value="Museo Regional UJED">Museo Regional UJED</option>
+                            <option value="Radio UJED">Radio UJED</option>
+                            <option value="TV UJED">TV UJED</option>
+                            <option value="Centro de Desarrollo del Deporte Universitario">Centro de Desarrollo del Deporte Universitario</option>
+                            <option value="Dirección de Vinculación Institucional">Dirección de Vinculación Institucional</option>
+                            <option value="Dirección de Transformación Digital">Dirección de Transformación Digital</option>
+                            <option value="Dirección de Centro de Negocios">Dirección de Centro de Negocios</option>
+                            <option value="Dirección de Servicios Escolares">Dirección de Servicios Escolares</option>
+                            <option value="Dirección General de Bibliotecas">Dirección General de Bibliotecas</option>
+                            <option value="Facultad de Ciencias Forestales y Ambientales">Facultad de Ciencias Forestales y Ambientales</option>
+                            <option value="Facultad de Trabajo Social">Facultad de Trabajo Social</option>
+                            <option value="Facultad de Ciencias Químicas">Facultad de Ciencias Químicas</option>
+                            <option value="Instituto de Bellas Artes">Instituto de Bellas Artes</option>
           </select>
 
           <div className='tipo'>

@@ -230,7 +230,7 @@ function page() {
           <div className="separador"></div>
           <div className="mapeo">
             <h1>Mapeo General de Procesos</h1>
-            <button><a href="https://drive.google.com/file/d/1diwefm-u638BmGTx6EnaO3jYlHfIjfAI/view?usp=drive_link">Ver mas</a></button>
+            <button><a href="https://drive.google.com/file/d/1diwefm-u638BmGTx6EnaO3jYlHfIjfAI/view?usp=drive_sharing">Ver mas</a></button>
           </div>
           <div className="separador"></div>
           <div className="estructura">
